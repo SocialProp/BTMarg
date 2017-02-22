@@ -68,7 +68,11 @@ a {
     margin-top: 50px; }
     @media only screen and (min-width: 480px) {
       .intro .principal h1 {
+        font-family: DINCond-Black;
         font-size: 64px;
+        color: white;
+        letter-spacing: 0;
+        line-height: 57px;
         margin-top: 300px; } }
 
 .we h3 {
@@ -80,7 +84,11 @@ a {
   margin-top: 50px; }
   @media only screen and (min-width: 480px) {
     .we h1 {
-      font-size: 64px; } }
+      font-family: DINCond-Black;
+      font-size: 64px;
+      color: black;
+      letter-spacing: 0;
+      line-height: 57px; } }
 
 .we p {
   margin-top: 60px;
@@ -93,7 +101,11 @@ a {
     margin-bottom: 50px; }
     @media only screen and (min-width: 480px) {
       .services h1 {
-        font-size: 64px; } }
+        font-family: DINCond-Black;
+        font-size: 64px;
+        color: black;
+        letter-spacing: 0;
+        line-height: 57px; } }
   .services h3 {
     padding-top: 200px;
     margin-top: -80px;
@@ -103,19 +115,21 @@ a {
     font-size: 24px; }
   .services .boxes {
     padding-top: 50px; }
-
-.columnas {
-  margin-top: 70px; }
-  .columnas img {
-    align-self: center;
-    margin-top: 60px; }
-  .columnas h3 {
-    margin-top: 50px;
-    color: black; }
-  .columnas p {
-    color: #919191; }
-  .columnas a {
-    color: #01BAF3; }
+    .services .boxes p {
+      font-family: DINCond-Light;
+      font-size: 17px;
+      color: #919191;
+      letter-spacing: 0; }
+    .services .boxes h2 {
+      font-family: DINCond-Light;
+      font-size: 24px;
+      color: #000000;
+      letter-spacing: 0; }
+    .services .boxes a {
+      font-family: DINCond-Light;
+      font-size: 17px;
+      color: #01BAF3;
+      letter-spacing: 0; }
 
 .carrousel {
   margin-top: 50px;
@@ -130,7 +144,11 @@ a {
 
 @media only screen and (min-width: 480px) {
   .latam h1 {
-    font-size: 64px; } }
+    font-family: DINCond-Black;
+    font-size: 64px;
+    color: black;
+    letter-spacing: 0;
+    line-height: 57px; } }
 
 .team {
   margin-bottom: 50px;
@@ -157,7 +175,11 @@ a {
     padding-bottom: 100px; }
   @media only screen and (min-width: 480px) {
     .team h1 {
-      font-size: 64px; } }
+      font-family: DINCond-Black;
+      font-size: 64px;
+      color: black;
+      letter-spacing: 0;
+      line-height: 57px; } }
 
 .contact h3 {
   color: #00B9F2;
