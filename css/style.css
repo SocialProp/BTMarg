@@ -78,6 +78,9 @@ a {
 
 .we h1 {
   margin-top: 50px; }
+  @media only screen and (min-width: 480px) {
+    .we h1 {
+      font-size: 64px; } }
 
 .we p {
   margin-top: 60px;
@@ -125,6 +128,10 @@ a {
   color: #00B9F2;
   padding-top: 300px; }
 
+@media only screen and (min-width: 480px) {
+  .latam h1 {
+    font-size: 64px; } }
+
 .team {
   margin-bottom: 50px;
   background-color: #FBFBFB; }
@@ -148,6 +155,9 @@ a {
   .team .socios {
     margin-top: 50px;
     padding-bottom: 100px; }
+  @media only screen and (min-width: 480px) {
+    .team h1 {
+      font-size: 64px; } }
 
 .contact h3 {
   color: #00B9F2;
