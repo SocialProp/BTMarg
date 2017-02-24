@@ -12,7 +12,12 @@ h1 {
   font-family: DINCond-Black; }
 
 h3 {
-  font-family: DINCond-BoldAlternate; }
+  font-family: DINCond-BoldAlternate;
+  color: #00B9F2;
+  letter-spacing: 7.45px;
+  margin-top: 200px;
+  font-size: 20px;
+  font-weight: normal; }
 
 p {
   font-family: DINCond-Light; }
@@ -87,9 +92,13 @@ a {
         margin-top: 300px; } }
 
 .we h3 {
+  /* QUIENES SOMOS: */
+  font-family: DINCond-BoldAlternate;
+  color: #00B9F2;
+  letter-spacing: 7.45px;
   margin-top: 200px;
   font-size: 20px;
-  color: #00B9F2; }
+  font-weight: normal; }
 
 .we h1 {
   margin-top: 50px; }
@@ -141,6 +150,9 @@ a {
       font-size: 17px;
       color: #01BAF3;
       letter-spacing: 0; }
+    .services .boxes .box {
+      border-right: 1px #E7E6E6 solid;
+      border-left: 1px #E7E6E6 solid; }
 
 .carrousel {
   margin-top: 50px;
