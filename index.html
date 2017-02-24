@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>BTM - Business Travel Managment</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Css Min -->
-    <link rel="stylesheet" href="./css/style.min.css">
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="./js/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./js/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="./js/owlcarousel/owl.carousel.min.js"></script>
+<head>
+<meta charset="utf-8">
+<title>BTM - Business Travel Managment</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!-- Slick CSS -->
 
-    <link rel="icon" href="./img/BTM solo.ico" type="image/gif" sizes="16x16">
+<!-- Css Min -->
+<link rel="stylesheet" href="./css/style.min.css">
 
-  </head>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="./js/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./js/slick/slick-theme.css">
+<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="./js/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="./js/index.min.js" charset="utf-8"></script>
+<link rel="icon" href="./img/BTM solo.ico" type="image/gif" sizes="16x16">
+
+</head>
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -73,7 +75,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>Quienes Somos</h3>
-        <img src="./img/line.png" alt="">
+        <hr>
         <h1>EXCELENCIA EN GESTION <br> + <br> ATENCIÓN PERSONALIZADA</h1>
         <p>Somos la agencia de viajes corporativos por excelencia,
           quebrinda asesoramiento y atención personalizada a cada uno de sus
@@ -88,7 +90,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>Servicios</h3>
-        <img src="./img/line.png" alt="">
+        <hr>
         <h1>NUESTROS TRES <br>PILARES</h1>
         <p>Nuestro servicio esta adaptado a las necesidades puntuales de
           nuestros clientes.
@@ -152,78 +154,33 @@
         </div>
       </div>
     </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <div class="col-lg-12 boxi">
-                <div class="row">
-                  <div class="col-lg-11 col-lg-offset-1">
-                    <div class="row">
-                      <div class="preview">
-                      <img src="./img/Foto Avion2.png" class="img-responsive center-block" alt="">
-                      <ul>
-                          <h3>Goodbye ultra-low rates? </h3>
-                      </ul>
-                      </div>
-                    </div>
-                    <div class="row boxinfo">
-                      <h3>Goodbye ultra-low rates? </h3>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <div class="item">
-              <div class="col-lg-12 boxi">
-                <div class="row">
-                  <div class="col-lg-11 col-lg-offset-1">
-                    <div class="row">
-                      <div class="preview">
-                      <img src="./img/Foto Avion2.png" class="img-responsive center-block" alt="">
-                      <ul>
-                        <button type="button" name="button">Dec 20, 2016</button>
-                        <button type="button" name="button">Fixed Income</button>
-                      </ul>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-          <script>
-            $(document).ready(function() {
-              var owl = $('.owl-carousel');
-              owl.owlCarousel({
-                margin: 10,
-                nav: true,
-                loop: true,
-                responsive: {
-                  0: {
-                    items: 1
-                  },
-                  600: {
-                    items: 3
-                  },
-                  1000: {
-                    items: 1
-                  }
-                }
-              })
-            })
-          </script>
-        </div>
+    <div class="row carrousel">
+      <div class="ventajas">
+        <h3>Ventajas Competitivas</h3>
+        <hr>
       </div>
+      <div class="col-sm-2">
+        <img class="prev" src="./img/Flecha_izq.png" alt="">
+      </div>
+      <div class="col-sm-8">
+        <section class="regular slider">
+          <div>Nuestro servicio está adaptado a las necesidades puntuales de nuestros clientes.</div>
+          <div>Esta frase es muy copada</div>
+          <div>Otra fase muy copada</div>
+        </section>
+      </div>
+      <div class="col-sm-2">
+        <img class="next" src="./img/Flecha_der.png" alt="">
+      </div>
+    </div>
     </section>
-  </section>
 
 
   <section id="latam" class="container-fluid content-section text-center latam">
     <div class="row">
       <div class="col-md-12">
         <h3>LATAM</h3>
-        <img src="./img/line.png" alt="">
+        <hr>
         <h1>UN SERVICIO <br> QUE TRASPASA FRONTERAS</h1>
       </div>
     </div>
@@ -233,7 +190,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>EQUIPO</h3>
-        <img src="./img/line.png">
+        <hr>
         <h1>SOBRE NOSOTROS</h1>
         <p>BTM LATAM fundada en 2004, es una empresa con un equipo de
           profesionales con una amplia experiencia en el mercado.
@@ -292,7 +249,7 @@
     <div class="row">
       <div class="col-md-12">
         <h3>CONTACTO</h3>
-        <img src="./img/line.png" alt="">
+        <hr>
       </div>
       <div class="col-md-4 col-md-offset-4">
         <form class="" action="#" method="post">
@@ -346,7 +303,18 @@
     </div>
     </div>
   </section>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        autoplay: true,
+        slidesToScroll: 2,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next')
+      });
+    });
+  </script>
   </body>
-
-  <script src="./js/index.min.js" charset="utf-8"></script>
 </html>

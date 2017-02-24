@@ -14,22 +14,3 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function(
 }), $(".navbar-collapse ul li a").click(function() {
     $(this).closest(".collapse").collapse("toggle")
 });
-
-$(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
-      loop:true,
-      margin:0,
-      autoplay:true,
-      responsive:{
-          0:{
-              items:1
-          },
-          600:{
-              items:3
-          },
-          1000:{
-              items:3
-          }
-      }
-  })
-});
