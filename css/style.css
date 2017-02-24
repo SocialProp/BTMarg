@@ -26,8 +26,7 @@ a {
 
 /* NAVBAR /* */
 .navbar-fixed-top {
-  background-color: #01BAF3;
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.8); }
+  background-color: transparent; }
   .navbar-fixed-top li a {
     color: white; }
     .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
@@ -36,11 +35,18 @@ a {
     color: white; }
     .navbar-fixed-top .navbar-header button:hover, .navbar-fixed-top .navbar-header button:focus {
       color: black; }
+  .navbar-fixed-top .logo {
+    padding-left: 40px; }
 
 @media only screen and (min-width: 480px) {
   .navbar-fixed-top {
-    background-color: rgba(1, 186, 243, 0.9); }
+    background-color: transparent; }
     .navbar-fixed-top li a {
+      padding-right: 20px;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: bold;
+      font-family: DIN;
       color: white; }
       .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
         background-color: transparent;
@@ -49,6 +55,10 @@ a {
       color: white; }
       .navbar-fixed-top .navbar-header button:hover {
         color: black; } }
+
+.intro .logointro {
+  margin-top: 240px;
+  margin-bottom: -290px; }
 
 .intro img {
   margin-top: 50px;
@@ -72,7 +82,7 @@ a {
         font-size: 64px;
         color: white;
         letter-spacing: 0;
-        line-height: 57px;
+        line-height: 80px;
         margin-top: 300px; } }
 
 .we h3 {
