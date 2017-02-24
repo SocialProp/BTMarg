@@ -175,6 +175,24 @@
     </div>
     </section>
 
+    <section id="clients" class="container-fluid content-section text-center clients">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Nuestros Clientes</h3>
+          <hr>
+          <section class="mini slider text-center">
+            <div><img src="./img/Google.png" class="img-responsive"></div>
+            <div><img src="./img/CNN.png" class="img-responsive"></div>
+            <div><img src="./img/Ocasa.png" class="img-responsive"></div>
+
+            <div><img src="./img/lanxess.jpg" class="img-responsive"></div>
+            <div><img src="./img/lhs.jpg" class="img-responsive"></div>
+            <div><img src="./img/alico.jpg" class="img-responsive"></div>
+          </section>
+        </div>
+      </div>
+    </section>
+
 
   <section id="latam" class="container-fluid content-section text-center latam">
     <div class="row">
@@ -313,6 +331,13 @@
         slidesToScroll: 2,
         prevArrow: $('.prev'),
         nextArrow: $('.next')
+      });
+      $(".mini").slick({
+        dots: true,
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 2
       });
     });
   </script>

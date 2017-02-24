@@ -42,4 +42,4 @@ gulp.task('serve', function(){
   gulp.watch('*.html').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['uglify', 'sass', 'minify-css','watch','serve']);
+gulp.task('default', ['uglify', 'sass', 'minify-css','watch', 'serve']);

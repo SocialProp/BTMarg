@@ -45,7 +45,7 @@ a {
 
 @media only screen and (min-width: 480px) {
   .navbar-fixed-top {
-    background-color: transparent; }
+    background-color: rgba(0, 0, 0, 0.4); }
     .navbar-fixed-top li a {
       padding-top: 20px;
       padding-right: 40px;
@@ -156,10 +156,9 @@ a {
 
 .carrousel {
   background-image: url("../img/Foto_Avion2.png");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   margin-top: 50px;
-  width: 100%;
   height: 400px; }
   .carrousel h3 {
     color: white;
@@ -282,37 +281,25 @@ ul li {
     font-family: DINCond-Light;
     font-size: 20px; }
 
-.boxi .boxinfo {
-  min-height: 200px;
-  margin-top: 150px;
-  background-color: white; }
-  .boxi .boxinfo h3 {
-    color: red;
-    padding: 10px; }
-  .boxi .boxinfo p {
-    color: black;
-    padding: 10px; }
-
-.boxi img {
-  position: absolute;
-  float: left;
-  min-height: 200px; }
-
-.boxi ul h3, .boxi ul p {
-  margin-top: 10px;
-  position: relative;
-  z-index: 20;
-  border-radius: 0px;
-  border: 0px;
-  font-size: 11px;
-  background-color: transparent;
-  color: white; }
-  .boxi ul h3:first-child, .boxi ul p:first-child {
-    background-color: red; }
-
 hr {
   border-bottom: 2px solid #00B9F2;
   width: 18px; }
+
+.clients .slider {
+  width: auto;
+  color: white;
+  font-family: DIN-LightItalicAlt;
+  text-shadow: 2px 2px 5px black;
+  font-size: 30px; }
+  .clients .slider img {
+    margin-left: auto;
+    margin-right: auto; }
+
+.clients .slick-slide {
+  text-align: center; }
+
+.clients .mini {
+  margin-top: 150px; }
 
 /* SLICK */
 .slider {
