@@ -42,7 +42,8 @@ a {
   .navbar-fixed-top {
     background-color: transparent; }
     .navbar-fixed-top li a {
-      padding-right: 20px;
+      padding-top: 20px;
+      padding-right: 40px;
       font-size: 13px;
       font-style: normal;
       font-weight: bold;
