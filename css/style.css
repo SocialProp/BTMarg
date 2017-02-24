@@ -193,6 +193,8 @@ a {
 .team {
   margin-bottom: 50px;
   background-color: #FBFBFB; }
+  .team .teamselect {
+    margin-top: -180px; }
   .team h3 {
     color: #00B9F2;
     padding-top: 100px; }
@@ -220,6 +222,9 @@ a {
       color: black;
       letter-spacing: 0;
       line-height: 57px; } }
+
+.contact .contactselect {
+  margin-top: -180px; }
 
 .contact h3 {
   color: #00B9F2;
