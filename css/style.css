@@ -160,6 +160,8 @@ a {
   height: auto; }
   .carrousel .slider {
     width: 100%; }
+  .carrousel .slide {
+    position: relative; }
 
 .latam h3 {
   color: #00B9F2;
@@ -266,11 +268,12 @@ ul li {
 
 /* SLICK */
 .slider {
-  width: 50%;
+  width: 100%;
   margin: 100px auto; }
 
 .slick-slide {
-  margin: 0px 20px; }
+  margin: auto;
+  width: 100%; }
   .slick-slide img {
     width: 100%; }
 
