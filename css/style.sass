@@ -253,18 +253,32 @@ ul
       font-family: DINCond-Light
       font-size: 20px
 
-/* SLICK */
 
-.slider
-  width: 100%
-  margin: 100px auto
-.slick-slide
-  // margin: 0px 20px
-  margin: auto
-  width: 100%
+.boxi
+  .boxinfo
+    min-height: 200px
+    margin-top: 150px
+    position:relative
+    background-color: white
+    h3
+      color: red
+      padding: 10px
+    p
+      color: black
+      padding: 10px
   img
-    width: 100%
-
-.slick-prev, .slick-next
-  &:before
-    color: black
+    position: absolute
+    float: left
+    min-height: 200px
+  ul
+    h3, p
+      margin-top: 10px
+      position: relative
+      z-index: 20
+      border-radius: 0px
+      border: 0px
+      font-size: 11px
+      background-color: transparent
+      color: white
+      &:first-child
+        background-color: red

@@ -266,16 +266,30 @@ ul li {
     font-family: DINCond-Light;
     font-size: 20px; }
 
-/* SLICK */
-.slider {
-  width: 100%;
-  margin: 100px auto; }
+.boxi .boxinfo {
+  min-height: 200px;
+  margin-top: 150px;
+  background-color: white; }
+  .boxi .boxinfo h3 {
+    color: red;
+    padding: 10px; }
+  .boxi .boxinfo p {
+    color: black;
+    padding: 10px; }
 
-.slick-slide {
-  margin: auto;
-  width: 100%; }
-  .slick-slide img {
-    width: 100%; }
+.boxi img {
+  position: absolute;
+  float: left;
+  min-height: 200px; }
 
-.slick-prev:before, .slick-next:before {
-  color: black; }
+.boxi ul h3, .boxi ul p {
+  margin-top: 10px;
+  position: relative;
+  z-index: 20;
+  border-radius: 0px;
+  border: 0px;
+  font-size: 11px;
+  background-color: transparent;
+  color: white; }
+  .boxi ul h3:first-child, .boxi ul p:first-child {
+    background-color: red; }
