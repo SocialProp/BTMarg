@@ -55,6 +55,9 @@ h3 {
       .navbar-fixed-top .navbar-header button:hover {
         color: black; } }
 
+.intro .fondo {
+  width: 100%; }
+
 .intro .logointro {
   margin-top: 240px;
   margin-bottom: -290px; }
