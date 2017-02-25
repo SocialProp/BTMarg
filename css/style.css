@@ -8,6 +8,9 @@ body, html {
 * {
   box-sizing: border-box; }
 
+p {
+  font-family: DINCond-Light; }
+
 h1 {
   font-family: DINCond-Black; }
 
@@ -174,20 +177,33 @@ h3 {
 .ventajas {
   padding-bottom: 70px; }
 
-.latam .latamselect {
-  margin-top: -280px; }
-
-.latam h3 {
-  color: #00B9F2;
-  padding-top: 300px; }
-
-@media only screen and (min-width: 480px) {
-  .latam h1 {
-    font-family: DINCond-Black;
-    font-size: 64px;
-    color: black;
-    letter-spacing: 0;
-    line-height: 57px; } }
+.latam {
+  background-color: #222222; }
+  .latam .latamselect {
+    margin-top: -280px; }
+  .latam h3 {
+    color: #00B9F2;
+    padding-top: 300px; }
+  @media only screen and (min-width: 480px) {
+    .latam h1 {
+      font-family: DINCond-Black;
+      font-size: 64px;
+      color: white;
+      letter-spacing: 0;
+      line-height: 57px;
+      padding-bottom: 50px;
+      padding-top: 50px; } }
+  .latam p {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 26px;
+    padding-bottom: 50px; }
+  .latam .mapa {
+    max-height: 440px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
 
 .team {
   margin-bottom: 50px;
@@ -307,21 +323,21 @@ hr {
   border-bottom: 2px solid #00B9F2;
   width: 18px; }
 
-.clients .slider {
-  width: auto;
-  color: white;
-  font-family: DIN-LightItalicAlt;
-  text-shadow: 2px 2px 5px black;
-  font-size: 30px; }
-  .clients .slider img {
-    margin-left: auto;
-    margin-right: auto; }
-
-.clients .slick-slide {
-  text-align: center; }
-
-.clients .mini {
-  margin-top: 150px; }
+.clients {
+  padding-bottom: 80px; }
+  .clients .slider {
+    width: auto;
+    color: white;
+    font-family: DIN-LightItalicAlt;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px; }
+    .clients .slider img {
+      margin-left: auto;
+      margin-right: auto; }
+  .clients .slick-slide {
+    text-align: center; }
+  .clients .mini {
+    margin-top: 150px; }
 
 /* SLICK */
 .slider {
