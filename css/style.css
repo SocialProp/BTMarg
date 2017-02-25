@@ -19,13 +19,6 @@ h3 {
   font-size: 20px;
   font-weight: normal; }
 
-p {
-  font-family: DINCond-Light; }
-
-a {
-  font-family: DIN;
-  font-weight: bold; }
-
 .section {
   width: 100%; }
 
@@ -205,10 +198,28 @@ a {
     font-size: 24px;
     text-align: center; }
   .team .barra {
-    width: 100%;
     margin-top: 50px;
     position: relative;
-    z-index: 0; }
+    z-index: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-image: url("../img/Blur Barra.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center; }
+    .team .barra h4 {
+      padding-top: 130px;
+      padding-bottom: 150px;
+      font-family: DIN-BoldItalic;
+      font-size: 30px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.32); }
+  .team p {
+    font-family: DINCond-Light; }
+  .team a {
+    font-family: DIN;
+    font-weight: bold; }
   .team h4 {
     position: relative;
     z-index: 10;
