@@ -195,15 +195,17 @@ h3 {
   .latam h3 {
     color: #00B9F2;
     padding-top: 300px; }
-  @media only screen and (min-width: 480px) {
-    .latam h1 {
-      font-family: DINCond-Black;
-      font-size: 64px;
-      color: white;
-      letter-spacing: 0;
-      line-height: 57px;
-      padding-bottom: 50px;
-      padding-top: 50px; } }
+  .latam h1 {
+    color: white; }
+    @media only screen and (min-width: 480px) {
+      .latam h1 {
+        font-family: DINCond-Black;
+        font-size: 64px;
+        color: white;
+        letter-spacing: 0;
+        line-height: 57px;
+        padding-bottom: 50px;
+        padding-top: 50px; } }
   .latam p {
     font-family: Movie-Star;
     margin-top: 30px;
@@ -239,13 +241,17 @@ h3 {
     background-size: cover;
     background-position: center; }
     .team .barra h4 {
-      padding-top: 130px;
+      padding-top: 110px;
       padding-bottom: 150px;
       font-family: DIN-BoldItalic;
       font-size: 30px;
       color: #FFFFFF;
       letter-spacing: 0;
       text-shadow: 0 0 10px rgba(0, 0, 0, 0.32); }
+      @media only screen and (max-width: 480px) {
+        .team .barra h4 {
+          font-size: 22px;
+          padding-top: 65px; } }
   .team p {
     font-family: DINCond-Light; }
   .team a {
