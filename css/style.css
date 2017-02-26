@@ -27,11 +27,11 @@ h3 {
 
 /* NAVBAR /* */
 .navbar-fixed-top {
-  background-color: transparent; }
+  background-color: rgba(0, 0, 0, 0.9); }
   .navbar-fixed-top li a {
     color: white; }
     .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
-      color: black; }
+      color: white; }
   .navbar-fixed-top .navbar-header button {
     color: white; }
     .navbar-fixed-top .navbar-header button:hover, .navbar-fixed-top .navbar-header button:focus {
