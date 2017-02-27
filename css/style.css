@@ -67,7 +67,10 @@ h3 {
         color: black; } }
 
 .intro .fondo {
-  width: 100%; }
+  width: 100%;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .intro .logointro {
   margin-top: 240px;
@@ -376,3 +379,13 @@ hr {
 
 .slick-prev:before, .slick-next:before {
   color: black; }
+
+/* Parallax */
+.parallax-window {
+  min-height: 400px;
+  background: transparent; }
+
+.window-wrapper {
+  padding-top: 50px;
+  /*height: 800px;*/
+  background: #fffff; }
