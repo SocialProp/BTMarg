@@ -14,3 +14,14 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function(
 }), $(".navbar-collapse ul li a").click(function() {
     $(this).closest(".collapse").collapse("toggle")
 });
+// 
+// $(document).ready(function(){
+//
+// // hide our element on page load
+// $('#titulo').css('opacity', '0');
+//
+// $('#titulo').waypoint(function() {
+// $('#titulo').addClass('fadeInLeft');
+// }, { offset: '50%' });
+//
+// });
