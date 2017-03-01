@@ -71,7 +71,7 @@ h3 {
       font-size: 13px;
       font-style: normal;
       font-weight: bold;
-      font-family: DIN;
+      font-family: DINCond-BoldAlternate;
       color: white; } }
     @media only screen and (min-width: 480px) and (min-width: 1024px) {
       .navbar-fixed-top li a {
