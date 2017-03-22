@@ -49,6 +49,15 @@ h3
       color: white
       &:hover, &:focus
         color: white
+  .navbar-right
+    display: none
+    @media only screen and (min-width: 768px)
+        display: inline-flex
+        padding-right: 30px
+        li
+          margin-right: 30px
+          a
+            margin-right: -60px
   .navbar-header
     button
       color: white
@@ -75,21 +84,29 @@ h3
         &:hover, &:focus
           background-color: transparent
           color: black
+        img
+          margin-top: -5px
     .navbar-header
       button
         color: white
         &:hover
           color: black
 .intro
-  .fondo
+  .video-container
     width: 100%
     // position: fixed
     position: center
     background-repeat: no-repeat
     background-size: cover
+    .fillWidth
+      width: 100%
+      background-repeat: no-repeat
+      background-size: cover
   .logointro
     margin-top: 240px
     margin-bottom: -290px
+    max-width: 502.57px
+    max-height: 153.09px
   img
     margin-top: 50px
     position: relative
@@ -100,26 +117,30 @@ h3
   .principal
     position: absolute
     z-index: 10
+    font-family: DINCond-Black
     h1
-      color: white
+      font-weight: lighter
+      color: #FFFFFF
       font-size: 20px
       margin: 20px 15px
       @media only screen and (min-width: 480px)
-        font-family: DINCond-Black
         font-size: 64px
-        color: white
         letter-spacing: 0
         line-height: 80px
       @media only screen and (min-width: 1024px)
-        margin-top: 300px
+        margin-top: 400px
         font-size: 64px
+        font-size: 17px
+        letter-spacing: 1.87px
 .we
+  background-image: url(../img/Pattern.png)
+  background-size: cover
   h3
     /* QUIENES SOMOS: */
     font-family: DINCond-BoldAlternate
     color: $titulo
     letter-spacing: 7.45px
-    margin-top: 200px
+    margin-top: 100px
     font-size: 20px
     font-weight: normal
   h1
@@ -151,7 +172,10 @@ h3
     font-size: 20px
     color: $titulo
   p
-    font-size: 24px
+    font-family: Helvetica-Oblique
+    font-size: 20px
+    color: #6E6E6E
+    letter-spacing: 0
   .boxes
     padding-top: 50px
     p
@@ -167,7 +191,7 @@ h3
     a
       font-family: DINCond-Light
       font-size: 17px
-      color: #01BAF3
+      color: #FFA45D
       letter-spacing: 0
     .box
       border-right: 1px #E7E6E6 solid
@@ -351,7 +375,16 @@ hr
   width: 18px
 
 .clients
+  background-color: #00B9F2
   padding-bottom: 80px
+  img
+    padding: 20px
+    text-align: center
+  h3
+    font-family: DINCond-BoldAlternate
+    font-size: 20px
+    color: #FFFFFF
+    letter-spacing: 7.45px
   .slider
     width: auto
     color: white
@@ -388,3 +421,45 @@ hr
   padding-top: 50px
   /*height: 800px;*/
   background: #fffff
+
+/*scroller*/
+
+.scroller
+  width: 100%
+  height: 100%
+
+
+.scroller
+  section
+    width: 100%
+    height: 100%
+
+.scroller
+  .scroller-nav
+    z-index: 999
+    position: fixed
+    top: 50%
+    right: 20px
+    margin-top: -75px
+
+
+.scroller
+  .scroller-nav
+    a
+      display: block
+      margin: 12px 0px
+      width: 16px
+      height: 16px
+      font: 0/0 a
+      color: transparent
+      text-shadow: none
+      background-color: transparent
+      border: 0
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      border-radius: 50%
+      border: 2px solid #FFFFFF
+.scroller
+  .scroller-nav
+    a.active
+      background: #FFFFFF

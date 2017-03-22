@@ -1,0 +1,45 @@
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
+// Place any jQuery/helper plugins in here.
+$(window).on('load', function() {
+	$('[data-scroller]').scroller({
+		body: 'html, body',
+		navigationcontainer: '[data-scroller-nav]',
+		navigation: '[data-scroller-nav] > a',
+		section: '[data-scroller-section]',
+		current: 0,
+		speed: 650,
+		easing: 'easeInOutExpo'
+	});
+
+  });
+
+  // var scroll_pos = 0;
+  //       $(document).scroll(function() {
+  //         if(scroll_pos > 710) {
+  //             $(".1").css('border-color', '#1A1A1A');
+  //         } else {
+  //           $(".1").css('border-color', 'white');
+  //         }
+  //       });
