@@ -52,6 +52,16 @@ h3 {
     color: white; }
     .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
       color: white; }
+  .navbar-fixed-top .navbar-right {
+    display: none; }
+    @media only screen and (min-width: 768px) {
+      .navbar-fixed-top .navbar-right {
+        display: inline-flex;
+        padding-right: 30px; }
+        .navbar-fixed-top .navbar-right li {
+          margin-right: 30px; }
+          .navbar-fixed-top .navbar-right li a {
+            margin-right: -60px; } }
   .navbar-fixed-top .navbar-header button {
     color: white; }
     .navbar-fixed-top .navbar-header button:hover, .navbar-fixed-top .navbar-header button:focus {
@@ -81,20 +91,28 @@ h3 {
       .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
         background-color: transparent;
         color: black; }
+      .navbar-fixed-top li a img {
+        margin-top: -5px; }
     .navbar-fixed-top .navbar-header button {
       color: white; }
       .navbar-fixed-top .navbar-header button:hover {
         color: black; } }
 
-.intro .fondo {
+.intro .video-container {
   width: 100%;
   position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+  .intro .video-container .fillWidth {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .intro .logointro {
   margin-top: 240px;
-  margin-bottom: -290px; }
+  margin-bottom: -290px;
+  max-width: 502.57px;
+  max-height: 153.09px; }
 
 .intro img {
   margin-top: 50px;
@@ -107,46 +125,49 @@ h3 {
 
 .intro .principal {
   position: absolute;
-  z-index: 10; }
+  z-index: 10;
+  font-family: DINCond-Black; }
   .intro .principal h1 {
-    color: white;
+    font-weight: lighter;
+    color: #FFFFFF;
     font-size: 20px;
     margin-top: 50px; }
     @media only screen and (min-width: 480px) {
       .intro .principal h1 {
-        font-family: DINCond-Black;
         font-size: 64px;
-        color: white;
         letter-spacing: 0;
         line-height: 80px; } }
     @media only screen and (min-width: 1024px) {
       .intro .principal h1 {
-        margin-top: 300px;
-        font-size: 64px; } }
+        margin-top: 400px;
+        font-size: 64px;
+        font-size: 17px;
+        letter-spacing: 1.87px; } }
 
-.we h3 {
-  /* QUIENES SOMOS: */
-  font-family: DINCond-BoldAlternate;
-  color: #00B9F2;
-  letter-spacing: 7.45px;
-  margin-top: 200px;
-  font-size: 20px;
-  font-weight: normal; }
-
-.we h1 {
-  margin-top: 50px; }
-  @media only screen and (min-width: 480px) {
-    .we h1 {
-      font-family: DINCond-Black;
-      font-size: 64px;
-      color: black;
-      letter-spacing: 0;
-      line-height: 57px; } }
-
-.we p {
-  margin-top: 60px;
-  margin-bottom: 200px;
-  font-size: 24px; }
+.we {
+  background-image: url(../img/Pattern.png);
+  background-size: cover; }
+  .we h3 {
+    /* QUIENES SOMOS: */
+    font-family: DINCond-BoldAlternate;
+    color: #00B9F2;
+    letter-spacing: 7.45px;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: normal; }
+  .we h1 {
+    margin-top: 50px; }
+    @media only screen and (min-width: 480px) {
+      .we h1 {
+        font-family: DINCond-Black;
+        font-size: 64px;
+        color: black;
+        letter-spacing: 0;
+        line-height: 57px; } }
+  .we p {
+    margin-top: 60px;
+    margin-bottom: 200px;
+    font-size: 24px; }
 
 .services {
   background-color: #FBFBFB; }
@@ -165,7 +186,10 @@ h3 {
     font-size: 20px;
     color: #00B9F2; }
   .services p {
-    font-size: 24px; }
+    font-family: Helvetica-Oblique;
+    font-size: 20px;
+    color: #6E6E6E;
+    letter-spacing: 0; }
   .services .boxes {
     padding-top: 50px; }
     .services .boxes p {
@@ -181,7 +205,7 @@ h3 {
     .services .boxes a {
       font-family: DINCond-Light;
       font-size: 17px;
-      color: #01BAF3;
+      color: #FFA45D;
       letter-spacing: 0; }
     .services .boxes .box {
       border-right: 1px #E7E6E6 solid;
@@ -371,7 +395,16 @@ hr {
   width: 18px; }
 
 .clients {
+  background-color: #00B9F2;
   padding-bottom: 80px; }
+  .clients img {
+    padding: 20px;
+    text-align: center; }
+  .clients h3 {
+    font-family: DINCond-BoldAlternate;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 7.45px; }
   .clients .slider {
     width: auto;
     color: white;
