@@ -198,26 +198,26 @@ h3
         border-right: 1px #E7E6E6 solid
         border-left: 1px #E7E6E6 solid
 
-.carrousel
-  background-image: url('../img/Foto_Avion2.png')
-  background-position: center center
-  background-size: cover
-  margin-top: 50px
-  height: 400px
-  h3
-    color: white
-    font-family: $fontDINBold
-    font-size: 20px
-    letter-spacing: 7.44px
-    text-shadow: 0 0 10px #000000
-    padding-top: 120px
-
-  hr
-    border-bottom: 2px solid white
-  img
-    width: 10px
-    @media only screen and (min-width: 480px)
-      width: auto
+// .carrousel
+//   background-image: url('../img/Foto_Avion2.png')
+//   background-position: center center
+//   background-size: cover
+//   margin-top: 50px
+//   height: 400px
+//   h3
+//     color: white
+//     font-family: $fontDINBold
+//     font-size: 20px
+//     letter-spacing: 7.44px
+//     text-shadow: 0 0 10px #000000
+//     padding-top: 120px
+//
+//   hr
+//     border-bottom: 2px solid white
+//   img
+//     width: 10px
+//     @media only screen and (min-width: 480px)
+//       width: auto
 
 .ventajas
   padding-bottom: 70px
@@ -243,9 +243,10 @@ h3
     max-height: 440px
     padding-top: 50px
     padding-bottom: 50px
+  .barra
+    padding-bottom: 10px
 
 .team
-  margin-bottom: 50px
   background-color: #FBFBFB
   .teamselect
     margin-top: -180px
@@ -255,27 +256,27 @@ h3
   p
     font-size: 24px
     text-align: center
-  .barra
-    margin-top: 50px
-    position: relative
-    z-index: 0
-    margin-left: -15px
-    margin-right: -15px
-    background-image: url('../img/Blur Barra.png')
-    background-repeat: none
-    background-size: cover
-    background-position: center
-    h4
-      padding-top: 110px
-      padding-bottom: 150px
-      font-family: DIN-BoldItalic
-      font-size: 30px
-      color: #FFFFFF
-      letter-spacing: 0
-      text-shadow: 0 0 10px rgba(0,0,0,0.32)
-      @media only screen and (max-width: 480px)
-        font-size: 22px
-        padding-top: 65px
+  // .barra
+  //   margin-top: 50px
+  //   position: relative
+  //   z-index: 0
+  //   margin-left: -15px
+  //   margin-right: -15px
+  //   background-image: url('../img/Blur Barra.png')
+  //   background-repeat: none
+  //   background-size: cover
+  //   background-position: center
+  //   h4
+  //     padding-top: 110px
+  //     padding-bottom: 150px
+  //     font-family: DIN-BoldItalic
+  //     font-size: 30px
+  //     color: #FFFFFF
+  //     letter-spacing: 0
+  //     text-shadow: 0 0 10px rgba(0,0,0,0.32)
+  //     @media only screen and (max-width: 480px)
+  //       font-size: 22px
+  //       padding-top: 65px
   p
     font-family: DINCond-Light
   a
@@ -299,37 +300,43 @@ h3
       letter-spacing: 0
       line-height: 57px
 .contact
+  background-color: #00B9F2
   .contactselect
     margin-top: -180px
   h3
-    color: $titulo
+    color: white
+    font-family: DINCond-BoldAlternate
+    font-size: 20px
+    color: #FFFFFF
+    letter-spacing: 7.45px
     padding-top: 100px
   img
     padding-bottom: 50px
   .forminput
-    margin-bottom: 20px
-    border: 3px solid #E5E4E4
+    border: 3px solid #FFFFFF
     border-radius: 13px
+    margin-bottom: 20px
     width: 100%
     font-family: DINCond-Light
     font-size: 24px
-    color: #B3B3B3
+    color: white
+    background-color: #00b9f2
     letter-spacing: 0
     &:focus, &:hover, &:active
       margin-bottom: 20px
-      border: 3px solid #E5E4E4
+      border: 3px solid white
       border-radius: 13px
       width: 100%
       font-family: DINCond-Light
       font-size: 24px
-      color: #B3B3B3
+      color: white
       letter-spacing: 0
   textarea
     border: 3px solid #E5E4E4
     border-radius: 13px
     font-family: DINCond-Light
     font-size: 24px
-    color: #B3B3B3
+    background-color: #00b9f2
     letter-spacing: 0
     width: 100%
   .btn-form
@@ -344,13 +351,18 @@ h3
     margin-bottom: 50px
 .footer
   padding-top: 20px
-  background: transparent
-  p
-    font-family: DINCond-Light
-    font-size: 22px
-    color: #676767
+  background: #222222
+  h2
+    font-family: Helvetica-Oblique
+    font-size: 20px
+    color: #6E6E6E
     letter-spacing: 0
-    line-height: 29px
+  p
+    font-family: Helvetica-Oblique
+    font-size: 20px
+    color: #6E6E6E
+    letter-spacing: 0
+
 ul
   li
     color: white
@@ -372,6 +384,8 @@ hr
   img
     padding: 30px
     text-align: center
+  hr
+    padding-bottom: 50px
   h3
     font-family: DINCond-BoldAlternate
     font-size: 20px
