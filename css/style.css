@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Color /* */
 @font-face {
   font-family: DINCond-Light;
@@ -9,7 +10,7 @@
 
 @font-face {
   font-family: DINCond-BoldAlternate;
-  src: url("../fonts/DIM/DIN-BoldAlternate.otf"); }
+  src: url("../fonts/DIM/DINCond-BoldAlternate.otf"); }
 
 @font-face {
   font-family: DIN-BoldItalic;
@@ -34,13 +35,13 @@ p {
 h1 {
   font-family: DINCond-Black; }
 
-h3 {
-  font-family: DINCond-BoldAlternate;
-  color: #00B9F2;
-  letter-spacing: 7.45px;
-  margin-top: 200px;
-  font-size: 20px;
-  font-weight: normal; }
+@media only screen and (min-width: 1024px) {
+  h3 {
+    font-family: DINCond-BoldAlternate;
+    color: #00B9F2;
+    letter-spacing: 7.44px;
+    margin-top: 170px;
+    font-size: 20px; } }
 
 .section {
   width: 100%; }
@@ -110,7 +111,7 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .intro .logointro {
       display: block;
-      margin-top: 240px;
+      margin-top: 340px;
       margin-bottom: -290px;
       max-width: 502.57px;
       max-height: 153.09px; } }
@@ -144,29 +145,23 @@ h3 {
           letter-spacing: 1.87px; } }
 
 .we {
-  background-image: url(../img/Pattern.png);
-  background-size: cover; }
-  .we h3 {
-    /* QUIENES SOMOS: */
-    font-family: DINCond-BoldAlternate;
-    color: #00B9F2;
-    letter-spacing: 7.45px;
-    margin-top: 100px;
-    font-size: 20px;
-    font-weight: normal; }
-  .we h1 {
-    margin-top: 50px; }
-    @media only screen and (min-width: 480px) {
-      .we h1 {
-        font-family: DINCond-Black;
-        font-size: 64px;
-        color: black;
-        letter-spacing: 0;
-        line-height: 57px; } }
+  background-image: url(../img/Pattern.jpg);
+  background-size: cover;
+  /* QUIÉNES SOMOS: */ }
+  @media only screen and (min-width: 1024px) {
+    .we h1 {
+      margin-top: 70px; } }
+  @media only screen and (min-width: 480px) {
+    .we h1 {
+      font-family: DINCond-Black;
+      font-size: 64px;
+      letter-spacing: 0;
+      line-height: 75px;
+      color: black; } }
   .we p {
     margin-top: 60px;
-    margin-bottom: 200px;
-    font-size: 24px; }
+    margin-bottom: 170px;
+    font-size: 20px; }
 
 .services {
   background-color: #FBFBFB; }
@@ -369,7 +364,6 @@ hr {
   .clients .slider {
     width: auto;
     color: white;
-    font-family: DIN-LightItalicAlt;
     text-shadow: 2px 2px 5px black;
     font-size: 30px; }
     .clients .slider img {
@@ -384,7 +378,6 @@ hr {
 .slider {
   width: auto;
   color: white;
-  font-family: DIN-LightItalicAlt;
   text-shadow: 2px 2px 5px black;
   font-size: 30px; }
 

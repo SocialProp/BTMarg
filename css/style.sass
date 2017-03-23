@@ -1,8 +1,6 @@
 /* Color /*
 $navbar : #01BAF3
 $titulo : #00B9F2
-$fontDINLight: DIN-LightItalicAlt
-$fontDINBold: DINCond-BoldAlternate
 
 @font-face
   font-family: DINCond-Light
@@ -12,7 +10,7 @@ $fontDINBold: DINCond-BoldAlternate
   src: url("../fonts/DIM/DINCond-Black.otf")
 @font-face
   font-family: DINCond-BoldAlternate
-  src: url("../fonts/DIM/DIN-BoldAlternate.otf")
+  src: url("../fonts/DIM/DINCond-BoldAlternate.otf")
 @font-face
   font-family: DIN-BoldItalic
   src: url("../fonts/DIM/DIN-BoldItalic.otf")
@@ -33,12 +31,12 @@ p
 h1
   font-family: DINCond-Black
 h3
-  font-family: $fontDINBold
-  color: $titulo
-  letter-spacing: 7.45px
-  margin-top: 200px
-  font-size: 20px
-  font-weight: normal
+  @media only screen and (min-width: 1024px)
+    font-family: DINCond-BoldAlternate
+    color: $titulo
+    letter-spacing: 7.44px
+    margin-top: 170px
+    font-size: 20px
 .section
   width: 100%
 /* NAVBAR /*
@@ -103,7 +101,7 @@ h3
   .logointro
     @media only screen and (min-width: 1024px)
       display: block
-      margin-top: 240px
+      margin-top: 340px
       margin-bottom: -290px
       max-width: 502.57px
       max-height: 153.09px
@@ -133,28 +131,23 @@ h3
         font-size: 17px
         letter-spacing: 1.87px
 .we
-  background-image: url(../img/Pattern.png)
+  background-image: url(../img/Pattern.jpg)
   background-size: cover
-  h3
-    /* QUIENES SOMOS: */
-    font-family: DINCond-BoldAlternate
-    color: $titulo
-    letter-spacing: 7.45px
-    margin-top: 100px
-    font-size: 20px
-    font-weight: normal
+    /* QUIÉNES SOMOS: */
   h1
-    margin-top: 50px
+    @media only screen and (min-width: 1024px)
+      margin-top: 70px
     @media only screen and (min-width: 480px)
       font-family: DINCond-Black
       font-size: 64px
-      color: black
       letter-spacing: 0
-      line-height: 57px
+      line-height: 75px
+      color: black
+      // text-shadow: 0px 2px 10px #def, 0 0 0 #000, 0px 2px 10px #def
   p
     margin-top: 60px
-    margin-bottom: 200px
-    font-size: 24px
+    margin-bottom: 170px
+    font-size: 20px
 
 .services
   background-color: #FBFBFB
@@ -399,7 +392,6 @@ hr
   .slider
     width: auto
     color: white
-    font-family: $fontDINLight
     text-shadow: 2px 2px 5px black
     font-size: 30px
     img
@@ -414,7 +406,6 @@ hr
 .slider
   width: auto
   color: white
-  font-family: $fontDINLight
   text-shadow: 2px 2px 5px black
   font-size: 30px
 .slick-slide
