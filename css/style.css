@@ -191,6 +191,9 @@ h3 {
     letter-spacing: 0; }
   .services .boxes {
     padding-top: 50px; }
+    .services .boxes .girar:hover {
+      transform: rotate(360deg);
+      transition: all 0.6s ease-in-out 0s; }
     .services .boxes p {
       font-family: DINCond-Light;
       font-size: 17px;
