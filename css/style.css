@@ -118,7 +118,7 @@ h1 {
   @media only screen and (min-width: 1024px) {
     .intro .logointro {
       display: block;
-      margin-top: 340px;
+      margin-top: 320px;
       margin-bottom: -290px;
       max-width: 502.57px;
       max-height: 153.09px; } }
@@ -218,10 +218,13 @@ h1 {
       color: #919191;
       letter-spacing: 0; }
     .services .boxes h2 {
-      font-family: DINCond-Light;
-      font-size: 24px;
-      color: #000000;
-      letter-spacing: 0; }
+      font-family: Helvetica;
+      font-size: 20px;
+      color: #6E6E6E;
+      letter-spacing: 0;
+      font-weight: bold;
+      padding-top: 15px;
+      padding-bottom: 20px; }
     .services .boxes a {
       font-family: DINCond-Light;
       font-size: 17px;
