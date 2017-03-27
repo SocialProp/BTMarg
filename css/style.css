@@ -341,6 +341,14 @@ h1 {
     color: white;
     background-color: #00b9f2;
     letter-spacing: 0; }
+    .contact .forminput::-webkit-input-placeholder {
+      color: white; }
+    .contact .forminput:-moz-placeholder {
+      color: white; }
+    .contact .forminput::-moz-placeholder {
+      color: white; }
+    .contact .forminput:-ms-input-placeholder {
+      color: white; }
     .contact .forminput:focus, .contact .forminput:hover, .contact .forminput:active {
       margin-bottom: 20px;
       border: 3px solid white;
@@ -358,6 +366,14 @@ h1 {
     background-color: #00b9f2;
     letter-spacing: 0;
     width: 100%; }
+    .contact textarea::-webkit-input-placeholder {
+      color: white; }
+    .contact textarea:-moz-placeholder {
+      color: white; }
+    .contact textarea::-moz-placeholder {
+      color: white; }
+    .contact textarea:-ms-input-placeholder {
+      color: white; }
 
 .footer {
   padding-top: 20px;

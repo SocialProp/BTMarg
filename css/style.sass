@@ -1,3 +1,4 @@
+@import "./_mixins.sass"
 /* Color /*
 $navbar : #01BAF3
 $titulo : #00B9F2
@@ -26,6 +27,7 @@ body, html
   overflow-x: hidden
   margin: 0
   padding: 0
+
 *
   box-sizing: border-box
 p
@@ -360,6 +362,7 @@ h3
   img
     padding-bottom: 50px
   .forminput
+    @include input-placeholder(white)
     border: 3px solid #FFFFFF
     border-radius: 13px
     margin-bottom: 20px
@@ -379,6 +382,7 @@ h3
       color: white
       letter-spacing: 0
   textarea
+    @include input-placeholder(white)
     border: 3px solid #E5E4E4
     border-radius: 13px
     font-family: DINCond-Light
