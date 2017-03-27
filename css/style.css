@@ -382,6 +382,8 @@ h1 {
       color: white; }
     .contact textarea:-ms-input-placeholder {
       color: white; }
+    .contact textarea:focus, .contact textarea:hover, .contact textarea:active {
+      color: white; }
 
 .footer {
   padding-top: 20px;
