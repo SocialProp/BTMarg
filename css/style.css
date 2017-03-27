@@ -343,7 +343,8 @@ h1 {
     margin-bottom: 20px;
     width: 100%;
     font-family: DINCond-Light;
-    font-size: 24px;
+    font-size: 20px;
+    padding-left: 15px;
     color: white;
     background-color: #00b9f2;
     letter-spacing: 0; }
@@ -368,7 +369,8 @@ h1 {
     border: 3px solid white;
     border-radius: 13px;
     font-family: DINCond-Light;
-    font-size: 24px;
+    font-size: 20px;
+    padding-left: 15px;
     background-color: #00b9f2;
     letter-spacing: 0;
     width: 100%; }
