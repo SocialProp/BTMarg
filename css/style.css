@@ -178,6 +178,13 @@ h1 {
 
 .services {
   background-color: #FBFBFB; }
+  @media only screen and (min-width: 768px) {
+    .services .gestion {
+      height: 190px; }
+    .services .ahorro {
+      height: 190px; }
+    .services .tecnologia {
+      height: 190px; } }
   .services h1 {
     margin-bottom: 50px; }
     @media only screen and (min-width: 480px) {
