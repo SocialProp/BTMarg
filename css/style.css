@@ -294,6 +294,16 @@ h1 {
 
 .contact {
   background-color: #00B9F2; }
+  .contact .quotes img {
+    padding: 30px; }
+  .contact .quotes hr {
+    margin-bottom: 120px; }
+  .contact .quotes p {
+    margin-bottom: 100px;
+    font-family: Helvetica-Oblique;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0; }
   .contact form button {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -311,8 +321,7 @@ h1 {
     font-family: DINCond-BoldAlternate;
     font-size: 20px;
     color: #FFFFFF;
-    letter-spacing: 7.45px;
-    padding-top: 100px; }
+    letter-spacing: 7.45px; }
   .contact img {
     padding-bottom: 50px; }
   .contact .forminput {
@@ -355,7 +364,14 @@ h1 {
     font-family: Helvetica-Oblique;
     font-size: 20px;
     color: #6E6E6E;
-    letter-spacing: 0; }
+    letter-spacing: 0;
+    display: inline-block;
+    padding: 5px; }
+    .footer p a {
+      font-family: DINCond-Light;
+      font-size: 22px;
+      color: #02BAF3;
+      letter-spacing: 0; }
 
 ul li {
   color: white;
@@ -371,11 +387,16 @@ hr {
   border-bottom: 2px solid #00B9F2;
   width: 18px; }
 
+.quotes {
+  margin-top: 50px; }
+  .quotes img {
+    display: inline-flex; }
+
 .clients {
   background-color: #00B9F2;
   padding-bottom: 80px; }
   .clients img {
-    padding: 30px;
+    padding: 20px;
     text-align: center; }
   .clients hr {
     padding-bottom: 50px; }
@@ -419,12 +440,6 @@ hr {
   padding-top: 50px;
   /*height: 800px;*/
   background: #fffff; }
-
-.quotes h1 {
-  font-family: AvantGardeLT-Medium;
-  font-size: 72px;
-  color: #FFFFFF;
-  letter-spacing: 0; }
 
 .regular p {
   font-size: 22px;
