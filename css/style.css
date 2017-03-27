@@ -357,19 +357,19 @@ h1 {
   background: #222222; }
   .footer h2 {
     font-family: Helvetica-Oblique;
-    font-size: 20px;
+    font-size: 18px;
     color: #6E6E6E;
     letter-spacing: 0; }
   .footer p {
     font-family: Helvetica-Oblique;
-    font-size: 20px;
+    font-size: 14px;
     color: #6E6E6E;
     letter-spacing: 0;
     display: inline-block;
     padding: 5px; }
     .footer p a {
       font-family: DINCond-Light;
-      font-size: 22px;
+      font-size: 14px;
       color: #02BAF3;
       letter-spacing: 0; }
 
