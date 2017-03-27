@@ -17,6 +17,9 @@ $titulo : #00B9F2
 @font-face
   font-family: Movie-Star
   src: url("../fonts/Movie Star/Movie-Star.ttf")
+@font-face
+  font-family: AvantGardeLT-Medium
+  src: url("../fonts/Avant Garden/ITC Avant Garde Gothic LT Medium.ttf")
 
 /* Body /*
 body, html
@@ -134,6 +137,14 @@ h3
   background-image: url(../img/Pattern.jpg)
   background-size: cover
     /* QUIÉNES SOMOS: */
+  h2
+    font-family: DINCond-Black
+    font-size: 130px
+    color: #F6A623
+    letter-spacing: 0
+    @media only screen and (min-width: 1024px)
+      line-height: 57px
+      margin-top: 40px
   h1
     @media only screen and (min-width: 1024px)
       margin-top: 70px
@@ -141,7 +152,7 @@ h3
       font-family: DINCond-Black
       font-size: 64px
       letter-spacing: 0
-      line-height: 75px
+      line-height: 45px
       color: black
       // text-shadow: 0px 2px 10px #def, 0 0 0 #000, 0px 2px 10px #def
   p
@@ -165,12 +176,12 @@ h3
     font-size: 20px
     color: $titulo
   p
-    font-family: Helvetica-Oblique
     font-size: 20px
     color: #6E6E6E
     letter-spacing: 0
   .boxes
     padding-top: 50px
+    margin-bottom: 60px
     .girar
       &:hover
         transform: rotate(360deg)
@@ -185,11 +196,13 @@ h3
       font-size: 24px
       color: #000000
       letter-spacing: 0
+
     a
       font-family: DINCond-Light
       font-size: 17px
       color: #FFA45D
       letter-spacing: 0
+      padding: 10px
     .box
       @media only screen and (min-width: 480px)
         border-right: 1px #E7E6E6 solid
@@ -220,12 +233,13 @@ h3
   padding-bottom: 70px
 
 .latam
-  background-image: url(../img/Pattern.png)
+  background-image: url(../img/Patter+Fondo.jpg)
+  background-size: cover
   .latamselect
     margin-top: -280px
   h3
     color: $titulo
-    padding-top: 300px
+    padding-top: 150px
   h1
     color: white
     @media only screen and (min-width: 480px)
@@ -236,9 +250,15 @@ h3
       line-height: 57px
       padding-bottom: 50px
       padding-top: 50px
+  p
+    position: absolute
+    top: 20px
+    left: 30%
+    font-size: 20px
+    color: #FFFFFF
+    letter-spacing: 0
   .mapa
     max-height: 440px
-    padding-top: 50px
     padding-bottom: 50px
   .barra
     padding-bottom: 10px
@@ -249,9 +269,9 @@ h3
     margin-top: -180px
   h3
     color: $titulo
-    padding-top: 100px
+    padding-top: 70px
   p
-    font-size: 24px
+    font-size: 20px
     text-align: center
   // .barra
   //   margin-top: 50px
@@ -296,6 +316,8 @@ h3
       color: black
       letter-spacing: 0
       line-height: 57px
+      padding-bottom: 40px
+      padding-top: 40px
 .contact
   background-color: #00B9F2
   form
@@ -423,6 +445,20 @@ hr
   padding-top: 50px
   /*height: 800px;*/
   background: #fffff
+
+.quotes
+  h1
+    font-family: AvantGardeLT-Medium
+    font-size: 72px
+    color: #FFFFFF
+    letter-spacing: 0
+.regular
+  p
+    font-size: 22px
+    color: #FFFFFF
+    letter-spacing: 0
+  img
+    padding-left: 30%
 
 /*scroller*/
 .scroller
