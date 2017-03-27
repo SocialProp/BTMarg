@@ -297,10 +297,9 @@ h1 {
   .contact .quotes img {
     padding: 30px; }
   .contact .quotes hr {
-    margin-bottom: 120px; }
+    margin-bottom: 100px; }
   .contact .quotes p {
     margin-bottom: 100px;
-    font-family: Helvetica-Oblique;
     font-size: 20px;
     color: #FFFFFF;
     letter-spacing: 0; }
@@ -321,7 +320,8 @@ h1 {
     font-family: DINCond-BoldAlternate;
     font-size: 20px;
     color: #FFFFFF;
-    letter-spacing: 7.45px; }
+    letter-spacing: 7.45px;
+    margin-top: 20px; }
   .contact img {
     padding-bottom: 50px; }
   .contact .forminput {
@@ -448,6 +448,12 @@ hr {
 
 .regular img {
   padding-left: 30%; }
+
+.formulario textarea {
+  max-height: 225px; }
+
+.formulario .consulta {
+  max-width: 360px; }
 
 /*scroller*/
 .scroller {
