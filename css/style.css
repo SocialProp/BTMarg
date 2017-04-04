@@ -239,36 +239,50 @@ h1 {
 .ventajas {
   padding-bottom: 70px; }
 
-.latam {
-  background-image: url(../img/Patter+Fondo.jpg);
+@media only screen and (min-width: 768px) {
+  .latam {
+    margin-top: 0px; } }
+
+.latam .video-container .fillWidth {
+  width: 100%;
+  background-repeat: no-repeat;
   background-size: cover; }
-  .latam .latamselect {
-    margin-top: -200px; }
-  .latam h3 {
-    color: #00B9F2;
-    padding-top: 150px; }
-  .latam h1 {
-    color: white; }
-    @media only screen and (min-width: 480px) {
-      .latam h1 {
-        font-family: DINCond-Black;
-        font-size: 54px;
-        color: black;
-        letter-spacing: 0;
-        line-height: 57px;
-        padding-bottom: 30px;
-        padding-top: 20px; } }
-  .latam p {
-    position: relative;
-    font-size: 20px;
-    color: black;
-    letter-spacing: 0;
-    padding-bottom: 30px; }
-  .latam .mapa {
-    max-height: 440px;
-    padding-bottom: 50px; }
-  .latam .barra {
-    padding-bottom: 10px; }
+
+.latam .latamselect {
+  position: absolute; }
+
+.latam h3 {
+  color: #00B9F2;
+  padding-top: 0px; }
+  @media only screen and (min-width: 1024px) {
+    .latam h3 {
+      margin-top: 30px; } }
+
+.latam h1 {
+  color: white; }
+  @media only screen and (min-width: 480px) {
+    .latam h1 {
+      font-family: DINCond-Black;
+      font-size: 54px;
+      color: black;
+      letter-spacing: 0;
+      line-height: 57px;
+      padding-bottom: 30px;
+      padding-top: 20px; } }
+
+.latam p {
+  position: relative;
+  font-size: 20px;
+  color: black;
+  letter-spacing: 0;
+  padding-bottom: 30px; }
+
+.latam .mapa {
+  max-height: 440px;
+  padding-bottom: 50px; }
+
+.latam .barra {
+  padding-bottom: 10px; }
 
 .team {
   background-color: #FBFBFB; }
@@ -420,7 +434,8 @@ ul li {
 
 hr {
   border-bottom: 2px solid #00B9F2;
-  width: 18px; }
+  width: 18px;
+  border-top: none; }
 
 .quotes {
   margin-top: 0px; }

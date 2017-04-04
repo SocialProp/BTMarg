@@ -14,7 +14,10 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function(
 }), $(".navbar-collapse ul li a").click(function() {
     $(this).closest(".collapse").collapse("toggle")
 });
-// 
+
+
+
+//
 // $(document).ready(function(){
 //
 // // hide our element on page load

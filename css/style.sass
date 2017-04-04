@@ -247,13 +247,20 @@ h3
   padding-bottom: 70px
 
 .latam
-  background-image: url(../img/Patter+Fondo.jpg)
-  background-size: cover
+  @media only screen and (min-width: 768px)
+    margin-top: 0px
+  .video-container
+    .fillWidth
+      width: 100%
+      background-repeat: no-repeat
+      background-size: cover
   .latamselect
-    margin-top: -200px
+    position: absolute
   h3
     color: $titulo
-    padding-top: 150px
+    padding-top: 0px
+    @media only screen and (min-width: 1024px)
+      margin-top: 30px
   h1
     color: white
     @media only screen and (min-width: 480px)
@@ -415,6 +422,7 @@ ul
 hr
   border-bottom: 2px solid #00B9F2
   width: 18px
+  border-top: none
 .quotes
   margin-top: 0px
   img
