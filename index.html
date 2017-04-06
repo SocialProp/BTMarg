@@ -104,7 +104,7 @@
         <hr>
         <div class="wow bounceInDown">
         <h1>EXCELENCIA EN GESTIÓN </h1>
-        <h2> +</h2>
+        <h2>+</h2>
         <h1> ATENCIÓN PERSONALIZADA</h1>
       </div>
         <p>Somos la agencia de viajes corporativos por excelencia,
@@ -405,34 +405,33 @@
 
 
   <section id="contact" class="container content-section text-center contact" data-scroller-section>
-    <div class="row quotes">
-      <div class="container">
-        <div class="col-md-4 col-md-offset-4">
-          <img src="./img/com1.png" class="img-responsive">
-          <img src="./img/com2.png" class="img-responsive">
-        </div>
-        <div class="col-md-12 regular text-center">
-          <div>
-            <p>Estamos firmemente convencidos que la organización,
-              el conocimiento y la claridad <br>
-              son las llaves para el éxito.</p>
+    <div class="row">
+      <h3>CONTACTO</h3>
+      <hr>
+      <div class="row quotes">
+        <div class="container">
+          <div class="col-md-4 col-md-offset-4">
+            <img src="./img/com1.png" class="img-responsive">
+            <img src="./img/com2.png" class="img-responsive">
           </div>
-          <div>
-            <p>Brindamos el mejor asesoramiento para los viajes de su empresa.</p>
-          </div>
-          <div>
-            <p>Asistencia Regional las 24HS los 7 días de la semana.</p>
-          </div>
-          <div>
-            <p>Eficiencia y velocidad de respuesta con atención personalizada.</p>
+          <div class="col-md-12 regular text-center">
+            <div>
+              <p>Estamos firmemente convencidos que la organización,
+                el conocimiento y la claridad <br>
+                son las llaves para el éxito.</p>
+            </div>
+            <div>
+              <p>Brindamos el mejor asesoramiento para los viajes de su empresa.</p>
+            </div>
+            <div>
+              <p>Asistencia Regional las 24HS los 7 días de la semana.</p>
+            </div>
+            <div>
+              <p>Eficiencia y velocidad de respuesta con atención personalizada.</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <hr>
-      <h3>CONTACTO</h3>
-      <hr>
       <form class="" action="index.html" method="post">
       <div class="col-md-10 col-md-offset-2 formulario">
           <div class="col-md-5">
@@ -458,29 +457,31 @@
   </section>
 </div>
   <section id="footer" class="container-fluid content-section footer">
-    <div class="container-fluid">
-      <h2>Teléfonos:</h2>
-      <div class="col-md-12">
-          <div class="col-md-8">
-            <div class="row">
-              <div class="container-fluid">
-                <div class="col-md-5 text-left">
-                  <p><img src="./img/argicon.png">Buenos Aires:  +54 11 5075 0140/1/2  </p>
-                  <p><img src="./img/mexicon.png">México City: + 5255 1328 1889</p>
-                </div>
-                <div class="col-md-5 text-left">
-                  <p><img src="./img/panamaicon.png">Panamá City: + 507 832 1520</p>
-                  <p><img src="./img/miamiicon.png">Miami: + 1305 722 1260</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 text-right">
-            <p>BTM LATAM ::Business Travel Management:: </p>
-            <p><a href="http://barbudastudio.com" target="_blank">© 2017. All Rights Reserved by Barbuda Studio</a></p>
-          </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-3 text-center">
+            <p><img src="./img/argicon.png">Buenos Aires:  +54 11 5075 0140/1/2  </p>
+        </div>
+        <div class="col-md-3 text-center">
+          <p><img src="./img/mexicon.png">México City: + 5255 1328 1889</p>
+        </div>
+        <div class="col-md-3 text-right">
+          <p><img src="./img/panamaicon.png">Panamá City: + 507 832 1520</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <p><img src="./img/miamiicon.png">Miami: + 1305 722 1260</p>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-md-4 col-md-offset-4 text-center">
+        <p>Escribinos a: <br>hola@btmlatam.com</p>
+      </div>
+      <div class="col-md-4 text-right">
+        <p>BTM LATAM ::Business Travel Management:: </p>
+        <p><a href="http://barbudastudio.com" target="_blank">© 2017. All Rights Reserved by Barbuda Studio</a></p>
       </div>
     </div>
+  </div>
   </section>
 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -502,10 +503,11 @@
         infinite: true,
         slidesToShow: 1,
         autoplay: true,
-        slidesToScroll:1
+        slidesToScroll:1,
+        arrows: false
       });
       $(".mini").slick({
-        dots: true,
+        dots: false,
         autoplay: true,
         infinite: true,
         slidesToShow: 3,

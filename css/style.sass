@@ -139,13 +139,16 @@ h3
         font-size: 22px
         letter-spacing: 1.87px
 .we
-  background-image: url(../img/Pattern.jpg)
+  background-image: url(../img/pattern.png)
   background-size: cover
     /* QUIÉNES SOMOS: */
+  hr
+    border-bottom: 2px solid #00B9F2
+    padding-bottom: 30px
   h2
     font-family: DINCond-Black
     font-size: 130px
-    color: #F6A623
+    color: black
     letter-spacing: 0
     @media only screen and (min-width: 1024px)
       line-height: 57px
@@ -165,6 +168,9 @@ h3
     font-size: 20px
 
 .services
+  hr
+    border-bottom: 2px solid #00B9F2
+    padding-bottom: 30px
   @media only screen and (min-width: 768px)
     .gestion
       height: 220px
@@ -221,28 +227,6 @@ h3
       @media only screen and (min-width: 480px)
         border-right: 1px #E7E6E6 solid
         border-left: 1px #E7E6E6 solid
-
-// .carrousel
-//   background-image: url('../img/Foto_Avion2.png')
-//   background-position: center center
-//   background-size: cover
-//   margin-top: 50px
-//   height: 400px
-//   h3
-//     color: white
-//     font-family: $fontDINBold
-//     font-size: 20px
-//     letter-spacing: 7.44px
-//     text-shadow: 0 0 10px #000000
-//     padding-top: 120px
-//
-//   hr
-//     border-bottom: 2px solid white
-//   img
-//     width: 10px
-//     @media only screen and (min-width: 480px)
-//       width: auto
-
 .ventajas
   padding-bottom: 70px
 
@@ -255,6 +239,9 @@ h3
       background-repeat: no-repeat
       background-size: cover
   .latamselect
+    hr
+      border-bottom: 2px solid #00B9F2
+      padding-bottom: 30px
     position: absolute
   h3
     color: $titulo
@@ -287,6 +274,9 @@ h3
   background-color: #FBFBFB
   .teamselect
     margin-top: -180px
+    hr
+      border-bottom: 2px solid #00B9F2
+      padding-bottom: 30px
   h3
     color: $titulo
     padding-top: 150px
@@ -317,10 +307,10 @@ h3
       padding-bottom: 40px
       padding-top: 40px
 .contact
-  background-color: #00B9F2
+  background-color: #63D1F2
   hr
-    margin-bottom: 60px
-    margin-top: 20px
+    border-bottom: 2px solid white
+    padding-bottom: 30px
   .quotes
     img
       padding: 30px
@@ -361,7 +351,7 @@ h3
     font-size: 20px
     padding-left: 15px
     color: white
-    background-color: #00b9f2
+    background-color: #63D1F2
     letter-spacing: 0
     &:focus, &:hover, &:active
       margin-bottom: 20px
@@ -379,23 +369,24 @@ h3
     font-family: DINCond-Light
     font-size: 20px
     padding-left: 15px
-    background-color: #00b9f2
+    background-color: #63D1F2
     letter-spacing: 0
     width: 100%
     &:focus, &:hover, &:active
       color: white
 .footer
   padding-top: 20px
-  background: #222222
+  background-color: #63D1F2
   h2
     font-family: Helvetica-Oblique
     font-size: 18px
-    color: #6E6E6E
+    color: white
     letter-spacing: 0
   p
     font-family: Helvetica-Oblique
-    font-size: 16px
-    color: #6E6E6E
+    font-size: 17px
+    font-style: oblique
+    color: white
     letter-spacing: 0
     display: inline-block
     padding: 5px
@@ -406,6 +397,7 @@ h3
       font-family: DINCond-Light
       font-size: 18px
       color: #02BAF3
+      font-style: oblique
       letter-spacing: 0
 
 ul
@@ -420,44 +412,14 @@ ul
       font-size: 20px
 
 hr
-  border-bottom: 2px solid #00B9F2
   width: 18px
   border-top: none
 .quotes
-  margin-top: 0px
+  margin-top: 30px
+  margin-bottom: 30px
   img
     display: inline-flex
-.clients
-  background-color: #00B9F2
-  padding-bottom: 80px
-  img
-    padding: 10px
-    text-align: center
-    min-height: 30px
-    min-width: 60px
-  hr
-    padding-bottom: 50px
-  .row
-    margin-top: 40px
-  .last
-    margin-top: 0px
-  h3
-    font-family: DINCond-BoldAlternate
-    font-size: 20px
-    color: #FFFFFF
-    letter-spacing: 7.45px
-  .slider
-    width: auto
-    color: white
-    text-shadow: 2px 2px 5px black
-    font-size: 30px
-    img
-      margin-left: auto
-      margin-right: auto
-  .slick-slide
-    text-align: center
-  .mini
-    margin-top: 150px
+
 /* SLICK */
 
 .slider
@@ -528,3 +490,36 @@ hr
       border: 2px solid #FFFFFF
     a.active
       background: #FFFFFF
+.clients
+  background-color: #63D1F2
+  padding-bottom: 80px
+  img
+    padding: 10px
+    text-align: center
+    min-height: 30px
+    min-width: 60px
+  hr
+    width: 18px
+    border-bottom: 2px solid #FFA45D
+    padding-bottom: 30px
+  .row
+    margin-top: 40px
+  .last
+    margin-top: 0px
+  h3
+    font-family: DINCond-BoldAlternate
+    font-size: 20px
+    color: #FFFFFF
+    letter-spacing: 7.45px
+  .slider
+    width: auto
+    color: white
+    text-shadow: 2px 2px 5px black
+    font-size: 30px
+    img
+      margin-left: auto
+      margin-right: auto
+  .slick-slide
+    text-align: center
+  .mini
+    margin-top: 150px

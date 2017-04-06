@@ -152,13 +152,16 @@ h1 {
           letter-spacing: 1.87px; } }
 
 .we {
-  background-image: url(../img/Pattern.jpg);
+  background-image: url(../img/pattern.png);
   background-size: cover;
   /* QUIÉNES SOMOS: */ }
+  .we hr {
+    border-bottom: 2px solid #00B9F2;
+    padding-bottom: 30px; }
   .we h2 {
     font-family: DINCond-Black;
     font-size: 130px;
-    color: #F6A623;
+    color: black;
     letter-spacing: 0; }
     @media only screen and (min-width: 1024px) {
       .we h2 {
@@ -181,6 +184,9 @@ h1 {
 
 .services {
   background-color: #FBFBFB; }
+  .services hr {
+    border-bottom: 2px solid #00B9F2;
+    padding-bottom: 30px; }
   @media only screen and (min-width: 768px) {
     .services .gestion {
       height: 220px; }
@@ -250,6 +256,9 @@ h1 {
 
 .latam .latamselect {
   position: absolute; }
+  .latam .latamselect hr {
+    border-bottom: 2px solid #00B9F2;
+    padding-bottom: 30px; }
 
 .latam h3 {
   color: #00B9F2;
@@ -288,6 +297,9 @@ h1 {
   background-color: #FBFBFB; }
   .team .teamselect {
     margin-top: -180px; }
+    .team .teamselect hr {
+      border-bottom: 2px solid #00B9F2;
+      padding-bottom: 30px; }
   .team h3 {
     color: #00B9F2;
     padding-top: 150px; }
@@ -318,10 +330,10 @@ h1 {
       padding-top: 40px; } }
 
 .contact {
-  background-color: #00B9F2; }
+  background-color: #63D1F2; }
   .contact hr {
-    margin-bottom: 60px;
-    margin-top: 20px; }
+    border-bottom: 2px solid white;
+    padding-bottom: 30px; }
   .contact .quotes img {
     padding: 30px; }
   .contact .quotes p {
@@ -359,7 +371,7 @@ h1 {
     font-size: 20px;
     padding-left: 15px;
     color: white;
-    background-color: #00b9f2;
+    background-color: #63D1F2;
     letter-spacing: 0; }
     .contact .forminput::-webkit-input-placeholder {
       color: white; }
@@ -384,7 +396,7 @@ h1 {
     font-family: DINCond-Light;
     font-size: 20px;
     padding-left: 15px;
-    background-color: #00b9f2;
+    background-color: #63D1F2;
     letter-spacing: 0;
     width: 100%; }
     .contact textarea::-webkit-input-placeholder {
@@ -400,16 +412,17 @@ h1 {
 
 .footer {
   padding-top: 20px;
-  background: #222222; }
+  background-color: #63D1F2; }
   .footer h2 {
     font-family: Helvetica-Oblique;
     font-size: 18px;
-    color: #6E6E6E;
+    color: white;
     letter-spacing: 0; }
   .footer p {
     font-family: Helvetica-Oblique;
-    font-size: 16px;
-    color: #6E6E6E;
+    font-size: 17px;
+    font-style: oblique;
+    color: white;
     letter-spacing: 0;
     display: inline-block;
     padding: 5px; }
@@ -420,6 +433,7 @@ h1 {
       font-family: DINCond-Light;
       font-size: 18px;
       color: #02BAF3;
+      font-style: oblique;
       letter-spacing: 0; }
 
 ul li {
@@ -433,46 +447,14 @@ ul li {
     font-size: 20px; }
 
 hr {
-  border-bottom: 2px solid #00B9F2;
   width: 18px;
   border-top: none; }
 
 .quotes {
-  margin-top: 0px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
   .quotes img {
     display: inline-flex; }
-
-.clients {
-  background-color: #00B9F2;
-  padding-bottom: 80px; }
-  .clients img {
-    padding: 10px;
-    text-align: center;
-    min-height: 30px;
-    min-width: 60px; }
-  .clients hr {
-    padding-bottom: 50px; }
-  .clients .row {
-    margin-top: 40px; }
-  .clients .last {
-    margin-top: 0px; }
-  .clients h3 {
-    font-family: DINCond-BoldAlternate;
-    font-size: 20px;
-    color: #FFFFFF;
-    letter-spacing: 7.45px; }
-  .clients .slider {
-    width: auto;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    font-size: 30px; }
-    .clients .slider img {
-      margin-left: auto;
-      margin-right: auto; }
-  .clients .slick-slide {
-    text-align: center; }
-  .clients .mini {
-    margin-top: 150px; }
 
 /* SLICK */
 .slider {
@@ -544,3 +526,37 @@ hr {
       border: 2px solid #FFFFFF; }
     .scroller .scroller-nav a.active {
       background: #FFFFFF; }
+
+.clients {
+  background-color: #63D1F2;
+  padding-bottom: 80px; }
+  .clients img {
+    padding: 10px;
+    text-align: center;
+    min-height: 30px;
+    min-width: 60px; }
+  .clients hr {
+    width: 18px;
+    border-bottom: 2px solid #FFA45D;
+    padding-bottom: 30px; }
+  .clients .row {
+    margin-top: 40px; }
+  .clients .last {
+    margin-top: 0px; }
+  .clients h3 {
+    font-family: DINCond-BoldAlternate;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 7.45px; }
+  .clients .slider {
+    width: auto;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px; }
+    .clients .slider img {
+      margin-left: auto;
+      margin-right: auto; }
+  .clients .slick-slide {
+    text-align: center; }
+  .clients .mini {
+    margin-top: 150px; }
