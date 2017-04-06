@@ -423,6 +423,7 @@ h1 {
     font-size: 17px;
     font-style: oblique;
     color: white;
+    font-weight: lighter;
     letter-spacing: 0;
     display: inline-block;
     padding: 5px; }
@@ -431,9 +432,27 @@ h1 {
       padding-bottom: 2px; }
     .footer p a {
       font-family: DINCond-Light;
-      font-size: 18px;
-      color: #02BAF3;
+      font-size: 17px;
+      color: #FFFFFF;
       font-style: oblique;
+      letter-spacing: 0; }
+  .footer .bajo {
+    padding-top: 30px; }
+    .footer .bajo p:first-of-type {
+      font-size: 24px;
+      font-family: DINCond-Light;
+      color: #FFFFFF;
+      letter-spacing: 0; }
+    .footer .bajo p:nth-child(2) {
+      font-family: Helvetica;
+      font-size: 17px;
+      color: #FFFFFF;
+      letter-spacing: 0; }
+    .footer .bajo #latamfooter {
+      font-family: Helvetica-Oblique;
+      font-style: oblique;
+      font-size: 17px;
+      color: #FFFFFF;
       letter-spacing: 0; }
 
 ul li {
