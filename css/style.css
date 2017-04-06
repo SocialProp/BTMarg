@@ -156,8 +156,7 @@ h1 {
   background-size: cover;
   /* QUIÉNES SOMOS: */ }
   .we hr {
-    border-bottom: 2px solid #00B9F2;
-    padding-bottom: 30px; }
+    border-bottom: 2px solid #00B9F2; }
   .we h2 {
     font-family: DINCond-Black;
     font-size: 130px;
@@ -185,8 +184,7 @@ h1 {
 .services {
   background-color: #FBFBFB; }
   .services hr {
-    border-bottom: 2px solid #00B9F2;
-    padding-bottom: 30px; }
+    border-bottom: 2px solid #00B9F2; }
   @media only screen and (min-width: 768px) {
     .services .gestion {
       height: 220px; }
@@ -211,7 +209,9 @@ h1 {
   .services p {
     font-size: 20px;
     color: #6E6E6E;
-    letter-spacing: 0; }
+    letter-spacing: 0;
+    font-family: Helvetica;
+    font-style: oblique; }
   .services .boxes {
     padding-top: 50px;
     margin-bottom: 60px; }
@@ -257,8 +257,7 @@ h1 {
 .latam .latamselect {
   position: absolute; }
   .latam .latamselect hr {
-    border-bottom: 2px solid #00B9F2;
-    padding-bottom: 30px; }
+    border-bottom: 2px solid #00B9F2; }
 
 .latam h3 {
   color: #00B9F2;
@@ -298,8 +297,7 @@ h1 {
   .team .teamselect {
     margin-top: -180px; }
     .team .teamselect hr {
-      border-bottom: 2px solid #00B9F2;
-      padding-bottom: 30px; }
+      border-bottom: 2px solid #00B9F2; }
   .team h3 {
     color: #00B9F2;
     padding-top: 150px; }
@@ -332,8 +330,7 @@ h1 {
 .contact {
   background-color: #63D1F2; }
   .contact hr {
-    border-bottom: 2px solid white;
-    padding-bottom: 30px; }
+    border-bottom: 2px solid white; }
   .contact .quotes img {
     padding: 30px; }
   .contact .quotes p {
@@ -438,6 +435,15 @@ h1 {
       letter-spacing: 0; }
   .footer .bajo {
     padding-top: 30px; }
+    .footer .bajo #latamfooter {
+      font-family: Helvetica-Oblique;
+      font-style: oblique;
+      font-size: 17px;
+      color: #FFFFFF; }
+    .footer .bajo #rights {
+      font-family: DINCond-Light;
+      font-size: 17px;
+      color: #FFFFFF; }
     .footer .bajo p:first-of-type {
       font-size: 24px;
       font-family: DINCond-Light;
@@ -445,12 +451,6 @@ h1 {
       letter-spacing: 0; }
     .footer .bajo p:nth-child(2) {
       font-family: Helvetica;
-      font-size: 17px;
-      color: #FFFFFF;
-      letter-spacing: 0; }
-    .footer .bajo #latamfooter {
-      font-family: Helvetica-Oblique;
-      font-style: oblique;
       font-size: 17px;
       color: #FFFFFF;
       letter-spacing: 0; }
@@ -556,8 +556,7 @@ hr {
     min-width: 60px; }
   .clients hr {
     width: 18px;
-    border-bottom: 2px solid #FFA45D;
-    padding-bottom: 30px; }
+    border-bottom: 2px solid #FFA45D; }
   .clients .row {
     margin-top: 40px; }
   .clients .last {
@@ -579,3 +578,5 @@ hr {
     text-align: center; }
   .clients .mini {
     margin-top: 150px; }
+  .clients .clientslist {
+    padding-top: 30px; }
