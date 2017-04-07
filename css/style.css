@@ -159,12 +159,13 @@ h1 {
   background-image: url(../img/pattern.png);
   background-size: cover;
   /* QUIÉNES SOMOS: */ }
-  .we .corchete img {
-    padding-top: 55px;
-    margin-left: 60px; }
-  .we .corchete2 img {
-    padding-top: 55px;
-    margin-left: -15px; }
+  @media only screen and (min-width: 1024px) {
+    .we .corchete img {
+      padding-top: 55px;
+      margin-left: 60px; }
+    .we .corchete2 img {
+      padding-top: 55px;
+      margin-left: -15px; } }
   .we hr {
     border-bottom: 2px solid #00B9F2; }
   .we h2 {
@@ -176,16 +177,17 @@ h1 {
       .we h2 {
         line-height: 57px;
         margin-top: 40px; } }
-  @media only screen and (min-width: 1024px) {
-    .we h1 {
-      margin-top: 90px; } }
   @media only screen and (min-width: 480px) {
     .we h1 {
       font-family: DINCond-Black;
-      font-size: 60px;
+      font-size: 45px;
       letter-spacing: 0;
       line-height: 45px;
       color: black; } }
+  @media only screen and (min-width: 1024px) {
+    .we h1 {
+      margin-top: 90px;
+      font-size: 60px; } }
   .we p {
     margin-top: 160px;
     margin-bottom: 100px;

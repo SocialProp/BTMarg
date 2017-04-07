@@ -145,14 +145,15 @@ h3
   background-image: url(../img/pattern.png)
   background-size: cover
     /* QUIÉNES SOMOS: */
-  .corchete
-    img
-      padding-top: 55px
-      margin-left: 60px
-  .corchete2
-    img
-      padding-top: 55px
-      margin-left: -15px
+  @media only screen and (min-width: 1024px)
+    .corchete
+      img
+        padding-top: 55px
+        margin-left: 60px
+    .corchete2
+      img
+        padding-top: 55px
+        margin-left: -15px
   hr
     border-bottom: 2px solid #00B9F2
   h2
@@ -164,14 +165,16 @@ h3
       line-height: 57px
       margin-top: 40px
   h1
-    @media only screen and (min-width: 1024px)
-      margin-top: 90px
     @media only screen and (min-width: 480px)
       font-family: DINCond-Black
-      font-size: 60px
+      font-size: 45px
       letter-spacing: 0
       line-height: 45px
       color: black
+    @media only screen and (min-width: 1024px)
+      margin-top: 90px
+      font-size: 60px
+
   p
     margin-top: 160px
     margin-bottom: 100px
