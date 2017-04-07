@@ -21,6 +21,9 @@ $titulo : #00B9F2
 @font-face
   font-family: AvantGardeLT-Medium
   src: url("../fonts/Avant Garden/ITC Avant Garde Gothic LT Medium.ttf")
+@font-face
+  font-family: Helvetica-Oblique
+  src: url("../fonts/HelveticaOblique.ttf")
 
 /* Body /*
 body, html
@@ -235,6 +238,15 @@ h3
   @media only screen and (min-width: 768px)
     margin-top: 0px
   .video-container
+    .texthover
+      position: absolute
+      padding-top: 700px
+      p
+        color: white
+        font-family: Helvetica-Oblique
+        font-size: 20px
+        color: #FBFBFB
+        letter-spacing: 0
     .fillWidth
       width: 100%
       background-repeat: no-repeat
@@ -310,9 +322,12 @@ h3
   hr
     border-bottom: 2px solid white
   .quotes
+    padding-bottom: 30px
     img
       padding: 30px
     p
+      font-family: Helvetica-Oblique
+      font-weight: lighter
       margin-bottom: 0px
       font-size: 20px
       color: #FFFFFF

@@ -24,6 +24,10 @@
   font-family: AvantGardeLT-Medium;
   src: url("../fonts/Avant Garden/ITC Avant Garde Gothic LT Medium.ttf"); }
 
+@font-face {
+  font-family: Helvetica-Oblique;
+  src: url("../fonts/HelveticaOblique.ttf"); }
+
 /* Body /* */
 body, html {
   overflow-x: hidden;
@@ -249,6 +253,16 @@ h1 {
   .latam {
     margin-top: 0px; } }
 
+.latam .video-container .texthover {
+  position: absolute;
+  padding-top: 700px; }
+  .latam .video-container .texthover p {
+    color: white;
+    font-family: Helvetica-Oblique;
+    font-size: 20px;
+    color: #FBFBFB;
+    letter-spacing: 0; }
+
 .latam .video-container .fillWidth {
   width: 100%;
   background-repeat: no-repeat;
@@ -331,13 +345,17 @@ h1 {
   background-color: #63D1F2; }
   .contact hr {
     border-bottom: 2px solid white; }
-  .contact .quotes img {
-    padding: 30px; }
-  .contact .quotes p {
-    margin-bottom: 0px;
-    font-size: 20px;
-    color: #FFFFFF;
-    letter-spacing: 0; }
+  .contact .quotes {
+    padding-bottom: 30px; }
+    .contact .quotes img {
+      padding: 30px; }
+    .contact .quotes p {
+      font-family: Helvetica-Oblique;
+      font-weight: lighter;
+      margin-bottom: 0px;
+      font-size: 20px;
+      color: #FFFFFF;
+      letter-spacing: 0; }
   .contact form button {
     margin-bottom: 30px;
     margin-top: 30px;
