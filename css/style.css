@@ -159,6 +159,12 @@ h1 {
   background-image: url(../img/pattern.png);
   background-size: cover;
   /* QUIÉNES SOMOS: */ }
+  .we .corchete img {
+    padding-top: 55px;
+    margin-left: 60px; }
+  .we .corchete2 img {
+    padding-top: 55px;
+    margin-left: -15px; }
   .we hr {
     border-bottom: 2px solid #00B9F2; }
   .we h2 {
