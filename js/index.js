@@ -105,4 +105,16 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function(
     }
   });
 
+var video = document.getElementsByClassName('videomapa')[0];
+
+  $(video).hover(function () {
+
+    var el = $(this).children("video")[0];
+
+         $(this).children("video")[0].play();
+     },
+     function () {
+          el.currentTime = 15;
+      });
+
 })(jQuery); // End of use strict
