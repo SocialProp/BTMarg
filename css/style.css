@@ -586,7 +586,7 @@ hr {
     min-width: 60px; }
   .clients hr {
     width: 18px;
-    border-bottom: 2px solid #FFA45D; }
+    border-bottom: 2px solid white; }
   .clients .row {
     margin-top: 40px; }
   .clients .last {
