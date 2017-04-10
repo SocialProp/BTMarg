@@ -4,18 +4,16 @@ function collapseNavbar() {
     $(".navbar").offset().top > 50 ? $(".navbar-fixed-top").addClass("top-nav-collapse") : $(".navbar-fixed-top").removeClass("top-nav-collapse")
 }
 
-$(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function() {
-    $("a.page-scroll").bind("click", function(e) {
-        var t = $(this);
-        $("html, body").stop().animate({
-            scrollTop: $(t.attr("href")).offset().top
-        }, 1500, "easeInOutExpo"), e.preventDefault()
-    })
-}), $(".navbar-collapse ul li a").click(function() {
-    $(this).closest(".collapse").collapse("toggle")
-});
-
-
+// $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function() {
+//     $("a.page-scroll").bind("click", function(e) {
+//         var t = $(this);
+//         $("html, body").stop().animate({
+//             scrollTop: $(t.attr("href")).offset().top
+//         }, 1500, "easeInOutExpo"), e.preventDefault()
+//     })
+// }), $(".navbar-collapse ul li a").click(function() {
+//     $(this).closest(".collapse").collapse("toggle")
+// });
 
 //
 // $(document).ready(function(){
@@ -29,8 +27,6 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function(
 //
 // });
 
-var punto = document.getElementsByClassName('active');
-console.log(punto);
 
 $('#we').waypoint(
   function(direction) {
@@ -62,6 +58,20 @@ $('#contact').waypoint(function(direction) {
 
     "use strict"; // Start of use strict
 
+    // Esconde el navbar
+  $(".navbar-fixed-top").autoHidingNavbar();
+
+    // agrega clase para hacer transparente el navbar
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non opaque*/
+        {
+            $('.opaque-navbar').addClass('opaque');
+        } else {
+            $('.opaque-navbar').removeClass('opaque');
+        }
+    });
+
+    // Animacion columnas servicios
     $('.gestionventajas').hide();
     $('.ahorroventajas').hide();
     $('.tecnologiaventajas').hide();
@@ -135,6 +145,7 @@ $('#contact').waypoint(function(direction) {
     }
   });
 
+// reproducir automaticamente el video
 var video = document.getElementsByClassName('videomapa')[0];
 
   $(video).hover(function () {

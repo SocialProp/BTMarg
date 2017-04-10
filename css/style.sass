@@ -77,8 +77,13 @@ h3
     @media only screen and (min-width: 1024px)
       padding-left: 40px
 @media only screen and (min-width: 480px)
-  .navbar-fixed-top
+  .opaque-navbar
+      background-color: rgba(0,0,0,0)
+      transition: background-color .5s ease 0s
+  .opaque-navbar.opaque
     background-color: rgba(0,0,0, 0.4)
+    transition: background-color .5s ease 0s
+  .navbar-fixed-top
     li
       a
         padding-top: 20px
