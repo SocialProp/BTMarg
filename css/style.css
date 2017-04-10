@@ -605,3 +605,12 @@ hr {
     margin-top: 150px; }
   .clients .clientslist {
     padding-top: 30px; }
+
+.gestionventajas {
+  min-width: 200px; }
+
+.ahorroventajas {
+  min-width: 200px; }
+
+.tecnologiaventajas {
+  min-width: 200px; }
