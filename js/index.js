@@ -147,4 +147,12 @@ var video = document.getElementsByClassName('videomapa')[0];
           el.currentTime = 15;
       });
 
+//FOTOS EQUIPO
+
+var foto = document.getElementsByClassName('fotoequipo')[0];
+$(".fotoequipo").mouseover(function () {
+  $(this).attr('src', $(this).data("hover"));
+}).mouseout(function () {
+  $(this).attr('src', $(this).data("src"));
+});
 })(jQuery); // End of use strict

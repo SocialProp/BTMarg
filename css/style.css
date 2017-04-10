@@ -624,3 +624,9 @@ hr {
 .tecnologiaventajas {
   min-width: 200px;
   padding-left: 40px; }
+
+.img-rounded {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 4px solid #FFA45D; }
