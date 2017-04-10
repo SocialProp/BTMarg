@@ -575,6 +575,8 @@ hr {
       border: 2px solid #FFFFFF; }
     .scroller .scroller-nav a.active {
       background: #FFFFFF; }
+    .scroller .scroller-nav a.b.active {
+      background: black; }
 
 .clients {
   background-color: #63D1F2;

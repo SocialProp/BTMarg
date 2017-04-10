@@ -28,6 +28,36 @@ $(window).scroll(collapseNavbar), $(document).ready(collapseNavbar), $(function(
 // }, { offset: '50%' });
 //
 // });
+
+var punto = document.getElementsByClassName('active');
+console.log(punto);
+
+$('#we').waypoint(
+  function(direction) {
+    if(direction === 'down'){
+        $(".1").css('border-color', '#1A1A1A');
+      } else {
+        $(".1").css('border-color', 'white');
+      }
+  }
+);
+$('#services').waypoint(function(direction) {
+        $(".1").css('border-color', '#1A1A1A');
+  });
+
+$('#clients').waypoint(function(direction) {
+        $(".1").css('border-color', 'white');
+  });
+$('#team').waypoint(function(direction) {
+        $(".1").css('border-color', '#1A1A1A');
+  });
+$('#latam').waypoint(function(direction) {
+        $(".1").css('border-color', 'white');
+  });
+$('#contact').waypoint(function(direction) {
+        $(".1").css('border-color', 'white');
+  });
+
 (function($) {
 
     "use strict"; // Start of use strict
