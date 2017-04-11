@@ -48,13 +48,22 @@ h3
 .section
   width: 100%
 /* NAVBAR /*
+
+
 .navbar-fixed-top
   background-color: rgba(0,0,0, 0.9)
+  .logo
+      max-height: 30px
+      display: none
+  &.top-nav-collapse 
+    .logo
+      display: flex
   li
     a
       color: white
       &:hover, &:focus
         color: white
+
   .navbar-right
     display: none
     @media only screen and (min-width: 768px)

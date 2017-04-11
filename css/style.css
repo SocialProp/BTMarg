@@ -57,6 +57,11 @@ h1 {
 /* NAVBAR /* */
 .navbar-fixed-top {
   background-color: rgba(0, 0, 0, 0.9); }
+  .navbar-fixed-top .logo {
+    max-height: 30px;
+    display: none; }
+  .navbar-fixed-top.top-nav-collapse .logo {
+    display: flex; }
   .navbar-fixed-top li a {
     color: white; }
     .navbar-fixed-top li a:hover, .navbar-fixed-top li a:focus {
