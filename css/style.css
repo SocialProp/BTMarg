@@ -330,7 +330,8 @@ h1 {
 
 .team {
   background-image: url(../img/Grupo.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: -5px; }
   .team .teamselect {
     margin-top: -180px; }
@@ -493,7 +494,7 @@ h1 {
       font-size: 17px;
       color: #FFFFFF; }
     .footer .bajo p:first-of-type {
-      font-size: 24px;
+      font-size: 21px;
       font-family: DINCond-Light;
       color: #FFFFFF;
       letter-spacing: 0; }
