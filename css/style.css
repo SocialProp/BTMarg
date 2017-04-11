@@ -211,10 +211,16 @@ h1 {
   @media only screen and (min-width: 768px) {
     .services .gestion {
       height: 220px; }
+    .services .gestionventajas img {
+      margin-left: -10px; }
     .services .ahorro {
       height: 220px; }
+    .services .ahorroventajas img {
+      margin-left: -10px; }
     .services .tecnologia {
-      height: 220px; } }
+      height: 220px; }
+    .services .tecnologiaventajas img {
+      margin-left: -10px; } }
   .services h1 {
     margin-bottom: 50px; }
     @media only screen and (min-width: 480px) {
