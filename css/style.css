@@ -497,6 +497,9 @@ h1 {
 .footer {
   padding-top: 20px;
   background-color: #63D1F2; }
+  @media only screen and (min-width: 1366px) {
+    .footer .col-md-3 {
+      text-align: center; } }
   .footer h2 {
     font-family: Helvetica-Oblique;
     font-size: 18px;
