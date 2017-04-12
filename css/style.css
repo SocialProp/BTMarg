@@ -133,10 +133,13 @@ h1 {
   @media only screen and (min-width: 1024px) {
     .intro .logointro {
       display: block;
-      margin-top: 320px;
+      margin-top: 70px;
       margin-bottom: -290px;
       max-width: 502.57px;
       max-height: 153.09px; } }
+  @media only screen and (min-width: 1366px) {
+    .intro .logointro {
+      margin-top: 170px; } }
   .intro img {
     margin-top: 50px;
     position: relative;
@@ -149,6 +152,9 @@ h1 {
     position: absolute;
     z-index: 10;
     font-family: DINCond-Black; }
+    @media only screen and (min-width: 768px) {
+      .intro .principal {
+        margin-top: 100px; } }
     .intro .principal h1 {
       display: none;
       font-weight: lighter;
@@ -158,7 +164,7 @@ h1 {
       @media only screen and (min-width: 480px) {
         .intro .principal h1 {
           display: block;
-          font-size: 64px;
+          font-size: 24px;
           letter-spacing: 0;
           line-height: 80px; } }
       @media only screen and (min-width: 1024px) {
@@ -206,6 +212,10 @@ h1 {
       line-height: 45px;
       color: black; } }
   @media only screen and (min-width: 1024px) {
+    .we h1 {
+      margin-top: 90px;
+      font-size: 48px; } }
+  @media only screen and (min-width: 1366px) {
     .we h1 {
       margin-top: 90px;
       font-size: 59px; } }
@@ -256,7 +266,7 @@ h1 {
     margin-bottom: 60px; }
     @media only screen and (min-width: 1024px) {
       .services .boxes {
-        margin-left: 11px; } }
+        margin-left: 30px; } }
     .services .boxes .girar:hover {
       transform: rotate(360deg);
       transition: all 0.6s ease-in-out 0s; }
@@ -347,9 +357,16 @@ h1 {
 .team {
   background-image: url(../img/Grupo.png);
   background-size: contain;
+  padding-bottom: 30px;
   background-repeat: no-repeat;
   margin-top: -5px;
   padding-top: 70px; }
+  @media only screen and (min-width: 1024px) {
+    .team {
+      background-size: contain; } }
+  @media only screen and (min-width: 1366px) {
+    .team {
+      background-size: cover; } }
   @media only screen and (min-width: 480px) {
     .team {
       padding-top: 0px; } }
@@ -487,12 +504,17 @@ h1 {
     letter-spacing: 0; }
   .footer p {
     font-family: Helvetica-Oblique;
-    font-size: 14px;
     font-style: oblique;
     color: white;
     font-weight: lighter;
     letter-spacing: 0;
     display: inline-block; }
+    @media only screen and (min-width: 1024px) {
+      .footer p {
+        font-size: 13px; } }
+    @media only screen and (min-width: 1366px) {
+      .footer p {
+        font-size: 14px; } }
     .footer p img {
       padding-right: 15px;
       padding-bottom: 2px; }
@@ -503,7 +525,11 @@ h1 {
       font-style: oblique;
       letter-spacing: 0; }
   .footer .bajo {
+    text-align: center;
     padding-top: 30px; }
+    @media only screen and (min-width: 1024px) {
+      .footer .bajo {
+        text-align: left; } }
     .footer .bajo #latamfooter {
       font-family: Helvetica-Oblique;
       font-style: oblique;
@@ -513,16 +539,18 @@ h1 {
       font-family: DINCond-Light;
       font-size: 17px;
       color: #FFFFFF; }
-    .footer .bajo p:first-of-type {
-      font-size: 21px;
-      font-family: DINCond-Light;
-      color: #FFFFFF;
-      letter-spacing: 0; }
-    .footer .bajo p:nth-child(2) {
-      font-family: Helvetica;
-      font-size: 17px;
-      color: #FFFFFF;
-      letter-spacing: 0; }
+    .footer .bajo p {
+      text-align: center; }
+      .footer .bajo p:first-of-type {
+        font-size: 21px;
+        font-family: DINCond-Light;
+        color: #FFFFFF;
+        letter-spacing: 0; }
+      .footer .bajo p:nth-child(2) {
+        font-family: Helvetica;
+        font-size: 17px;
+        color: #FFFFFF;
+        letter-spacing: 0; }
 
 ul li {
   color: white;
@@ -578,8 +606,9 @@ hr {
 .formulario textarea {
   max-height: 205px; }
 
-.formulario .consulta {
-  max-width: 360px; }
+@media only screen and (min-width: 1024px) {
+  .formulario .consulta {
+    max-width: 360px; } }
 
 /*scroller*/
 .scroller {
