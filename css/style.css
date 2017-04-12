@@ -359,7 +359,7 @@ h1 {
   padding-bottom: 10px; }
 
 .team {
-  background-image: url(../img/Grupo.png);
+  background-image: url(../img/Grupo2.png);
   background-size: contain;
   padding-bottom: 30px;
   background-repeat: no-repeat;
@@ -396,8 +396,6 @@ h1 {
     z-index: 10;
     margin-top: 20px;
     color: #696969; }
-  .team .fotos {
-    padding-top: 10px; }
   .team .socios {
     margin-top: 50px; }
   .team #ultimo {
@@ -429,6 +427,15 @@ h1 {
       color: #FFFFFF;
       letter-spacing: 0;
       text-transform: uppercase; }
+  .contact form .alert-danger .close {
+    margin-top: -10px;
+    background: red;
+    border-radius: 13px;
+    color: white;
+    border-width: 0px;
+    border-style: none;
+    width: 196px;
+    height: 41px; }
   .contact form button {
     margin-bottom: 30px;
     margin-top: 30px;
@@ -454,7 +461,7 @@ h1 {
   .contact .forminput {
     border: 3px solid #FFFFFF;
     border-radius: 13px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 100%;
     font-family: DINCond-Light;
     font-size: 20px;
@@ -706,8 +713,22 @@ hr {
   min-width: 200px;
   padding-left: 40px; }
 
-.img-rounded {
+.fotoequipo {
   border-radius: 50%;
   height: 150px;
   width: 150px;
   border: 4px solid #FFA45D; }
+
+.fotosocios {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border: 4px solid #FFA45D; }
+
+.form-group {
+  margin-bottom: 0px; }
+
+.text-danger ul li {
+  color: #FFA45D;
+  font-size: 15px;
+  text-align: left; }

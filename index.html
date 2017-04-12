@@ -446,41 +446,58 @@
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row fotos">
+      <div class="col-lg-11 col-lg-offset-1">
+        <div class="row">
+          <div class="wow fadeInLeftBig col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-2 text-middle">
+            <img class="img-rounded fotosocios" src="./img/team/jose.png" data-src="./img/team/jose.png" data-hover="./img/team/jose2.png">
+            <h4>Jose Mollerach</h4>
+            <p>CEO, Fundador</p>
+          </div>
+          <div class="wow fadeInRightBig col-lg-4 text-middle">
+            <img class="img-rounded fotosocios" src="./img/team/mariano.png" data-src="./img/team/mariano.png" data-hover="./img/team/mariano2.png">
+            <h4>Mariano Resua</h4>
+            <p>CEO, Fundador</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row fotos">
       <div class="container socios">
         <div class="wow fadeInUp col-md-12">
-          <div class="col-sm-6 col-md-4">
+          <!-- <div class="col-sm-6 col-md-4 col-md-offset-2">
             <img class="img-rounded fotoequipo" src="./img/team/jose.png" data-src="./img/team/jose.png" data-hover="./img/team/jose2.png">
             <h4>Jose Mollerach</h4>
             <p>CEO, Fundador</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <img class="img-rounded fotoequipo" src="./img/team/mariano.png" data-src="./img/team/mariano.png" data-hover="./img/team/mariano2.png">
             <h4>Mariano Resua</h4>
             <p>CEO, Fundador</p>
-          </div>
-          <div class="col-sm-6 col-md-4">
+          </div> -->
+          <div class="col-sm-6 col-md-3">
             <img class="img-rounded fotoequipo" src="./img/team/ale.png" data-src="./img/team/ale.png" data-hover="./img/team/ale2.png">
             <h4>Ale Rodriguez</h4>
-            <p>Responsable Operaciones</p>
+            <p>Office Manager</p>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-3">
             <img class="img-rounded fotoequipo" src="./img/team/agustin.png" data-src="./img/team/agustin.png" data-hover="./img/team/agustin2.png">
             <h4>Agustín Amarelle</h4>
-            <p>Responsable Comercial</p>
+            <p>Responsable de Operaciones</p>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-3">
             <img class="img-rounded fotoequipo" src="./img/team/sol.png" data-src="./img/team/sol.png" data-hover="./img/team/sol2.png">
             <h4>Sol Bianconi</h4>
-            <p>Departamento Administrativo</p>
+            <p>Referente Adm. y Finanzas</p>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-3">
             <img class="img-rounded fotoequipo" src="./img/team/maria.png" data-src="./img/team/maria.png" data-hover="./img/team/maria2.png">
             <h4>María Jose García </h4>
-            <p>Departamento Administrativo</p>
+            <p>Referente Administración</p>
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -512,25 +529,38 @@
       </div>
       <h3>CONTACTO</h3>
       <hr>
-      <form class="" action="index.html" method="post">
+      <form name="sentMessage" id="contactForm" novalidate>
       <div class="col-md-10 col-md-offset-2 formulario">
           <div class="col-md-5">
-            <input type="text" name="nombre" value="" class="forminput" placeholder="Nombre Completo...">
-            <input type="text" name="companie" value="" class="forminput" placeholder="Compañia...">
-            <input type="text" name="puesto" value="" class="forminput" placeholder="Puesto Laboral...">
+            <div class="form-group">
+            <input type="text"  value="" class="forminput" placeholder="Nombre Completo..." id="name" required data-validation-required-message="Por favor escribi tu nombre.">
+            <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+            <input type="text"  value="" class="forminput" placeholder="Compañia..." id="companie">
+            <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+            <input type="text"  value="" class="forminput" placeholder="Puesto Laboral..." id="puesto" >
+            <p class="help-block text-danger"></p>
+            </div>
             <div class="row">
-              <div class="col-md-6">
-                <input type="text" name="email" value="" class="forminput" placeholder="Email...">
+              <div class="form-group col-md-6">
+                <input type="text"  value="" class="forminput" placeholder="Email..." id="email" required data-validation-required-message="Por favor escribi tu mail.">
+                <p class="help-block text-danger"></p>
               </div>
-              <div class="col-md-6">
-                <input type="num" name="number" value="" class="forminput" placeholder="Telefono...">
+              <div class="form-group col-md-6">
+                <input type="num" value="" class="forminput" placeholder="Telefono..." id="phone" required data-validation-required-message=" Por favor escribi tu telefono.">
+                <p class="help-block text-danger"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-5 consulta">
-            <textarea rows="100%" cols="60" placeholder="Consulta..."></textarea>
+          <div class="form-group col-md-5 consulta">
+            <textarea rows="100%" cols="60" placeholder="Consulta..." id="message" required data-validation-required-message="Por favor escribi tu mensaje."></textarea>
+            <p class="help-block text-danger"></p>
           </div>
       </div>
+      <div class="col-md-12 text-center" id="success"></div>
         <button type="submit" name="button">Enviar</button>
     </form>
       </div>
@@ -576,6 +606,8 @@
   <script src="./js/wow.min.js" charset="utf-8"></script>
   <script src="./js/index.min.js" charset="utf-8"></script>
   <script src="./js/plugins.js"></script>
+  <script src="./js/jqBootstrapValidation.js" charset="utf-8"></script>
+  <script src="./js/contact_me.js" charset="utf-8"></script>
 
   <script type="text/javascript">
     $(document).on('ready', function() {

@@ -161,7 +161,15 @@ var video = document.getElementsByClassName('videomapa')[0];
 //FOTOS EQUIPO
 
 var foto = document.getElementsByClassName('fotoequipo')[0];
+var foto2 = document.getElementsByClassName('fotosocios')[0];
+
 $(".fotoequipo").mouseover(function () {
+  $(this).attr('src', $(this).data("hover"));
+}).mouseout(function () {
+  $(this).attr('src', $(this).data("src"));
+});
+
+$(".fotosocios").mouseover(function () {
   $(this).attr('src', $(this).data("hover"));
 }).mouseout(function () {
   $(this).attr('src', $(this).data("src"));
