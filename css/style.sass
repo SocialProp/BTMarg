@@ -144,11 +144,13 @@ h3
     z-index: 10
     font-family: DINCond-Black
     h1
+      display: none
       font-weight: lighter
       color: #FFFFFF
       font-size: 20px
       margin-top: 50px
       @media only screen and (min-width: 480px)
+        display: block
         font-size: 64px
         letter-spacing: 0
         line-height: 80px
@@ -161,12 +163,18 @@ h3
   background-image: url(../img/pattern.png)
   background-size: cover
     /* QUIÉNES SOMOS: */
+  .corchete2
+    display: none
+  .corchete
+    display: none
   @media only screen and (min-width: 1024px)
     .corchete
+      display: block
       img
         padding-top: 55px
         margin-left: 60px
     .corchete2
+      display: block
       img
         padding-top: 55px
         margin-left: -15px
@@ -327,6 +335,9 @@ h3
   background-size: contain
   background-repeat: no-repeat
   margin-top: -5px
+  padding-top: 70px
+  @media only screen and (min-width: 480px)
+    padding-top: 0px
   .teamselect
     margin-top: -180px
     hr
