@@ -669,6 +669,9 @@ hr {
 .clients {
   background-color: #63D1F2;
   padding-bottom: 80px; }
+  @media only screen and (max-width: 480px) {
+    .clients .otro {
+      display: none; } }
   .clients img {
     padding: 10px;
     text-align: center;
@@ -718,12 +721,20 @@ hr {
   height: 150px;
   width: 150px;
   border: 4px solid #FFA45D; }
+  @media only screen and (max-width: 480px) {
+    .fotoequipo {
+      height: 140px;
+      width: 140px; } }
 
 .fotosocios {
   border-radius: 50%;
   height: 200px;
   width: 200px;
   border: 4px solid #FFA45D; }
+  @media only screen and (max-width: 480px) {
+    .fotosocios {
+      height: 140px;
+      width: 140px; } }
 
 .form-group {
   margin-bottom: 0px; }
