@@ -503,15 +503,20 @@ h1 {
     color: white;
     letter-spacing: 0; }
   .footer p {
+    font-size: 13px;
     font-family: Helvetica-Oblique;
     font-style: oblique;
     color: white;
     font-weight: lighter;
     letter-spacing: 0;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      .footer p {
+        text-align: left; } }
     @media only screen and (min-width: 1024px) {
       .footer p {
-        font-size: 13px; } }
+        font-size: 11px; } }
     @media only screen and (min-width: 1366px) {
       .footer p {
         font-size: 14px; } }
