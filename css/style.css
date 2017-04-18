@@ -672,6 +672,9 @@ hr {
   @media only screen and (max-width: 480px) {
     .clients .otro {
       display: none; } }
+  @media only screen and (min-width: 1024px) {
+    .clients h3 {
+      margin-top: 10px; } }
   .clients img {
     padding: 10px;
     text-align: center;
