@@ -236,15 +236,15 @@ h1 {
     .services .gestion {
       height: 220px; }
     .services .gestionventajas img {
-      margin-left: -10px; }
+      display: initial; }
     .services .ahorro {
       height: 220px; }
     .services .ahorroventajas img {
-      margin-left: -10px; }
+      display: initial; }
     .services .tecnologia {
       height: 220px; }
     .services .tecnologiaventajas img {
-      margin-left: -10px; } }
+      display: initial; } }
   .services h1 {
     margin-bottom: 50px; }
     @media only screen and (min-width: 480px) {
@@ -706,18 +706,6 @@ hr {
     margin-top: 150px; }
   .clients .clientslist {
     padding-top: 30px; }
-
-.gestionventajas {
-  min-width: 200px;
-  padding-left: 40px; }
-
-.ahorroventajas {
-  min-width: 200px;
-  padding-left: 40px; }
-
-.tecnologiaventajas {
-  min-width: 200px;
-  padding-left: 40px; }
 
 .fotoequipo {
   border-radius: 50%;
