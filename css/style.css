@@ -232,6 +232,12 @@ h1 {
   background-color: #FBFBFB; }
   .services hr {
     border-bottom: 2px solid #00B9F2; }
+  .services .gestionventajas img {
+    display: initial; }
+  .services .ahorroventajas img {
+    display: initial; }
+  .services .tecnologiaventajas img {
+    display: initial; }
   @media only screen and (min-width: 768px) {
     .services .gestion {
       height: 220px; }
